@@ -13,12 +13,19 @@ export default template(async basic => {
 			${startup_scripts_with_dev_mode(path)}
 		`,
 		body: html`
-			<main class=foundation>
-				<h1>atlea</h1>
-				<h2>open source open world game</h2>
-				<atl-counter></atl-counter>
-				<br/>
-				<img src="/assets/concepts/005.webp" alt=""/>
+			<main>
+				<h1 class=title>
+					Aeon Atlea
+				</h1>
+				<atl-showcase images="
+					=> /assets/concepts/013.webp
+						rough luxium ore in its rough natural state
+					=> /assets/concepts/003.webp
+						a refined bar of luxium aureum
+					=> /assets/concepts/005.webp
+					=> /assets/concepts/006.webp
+					=> /assets/concepts/007.webp
+				"></atl-showcase>
 			</main>
 		`,
 	})

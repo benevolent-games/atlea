@@ -1,6 +1,6 @@
 {
 	"private": true,
-	"name": "@benev/altea-design",
+	"name": "@benev/atlea-design",
 	"version": "0.0.0-dev.0",
 	"description": "website for atlea game design",
 	"license": "MIT",
@@ -14,6 +14,7 @@
 	"scripts": {
 		"build": "turtle-standard && ln -s $(realpath assets) x/assets",
 		"start": "turtle-standard-watch",
+		"img": "batchimage --in 'assets/temp' --out 'assets' --format 'webp' --quality '75' --size '800'",
 		"test": "exit 0"
 	},
 	"dependencies": {
@@ -27,6 +28,7 @@
 		"sharp": "^0.32.5"
 	},
 	"devDependencies": {
+		"@benev/batchimage": "^0.0.0",
 		"@benev/turtle": "^0.5.0",
 		"@rollup/plugin-node-resolve": "^15.2.1",
 		"chokidar": "^3.5.3",
