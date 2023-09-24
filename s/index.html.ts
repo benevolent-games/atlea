@@ -14,9 +14,10 @@ export default template(async basic => {
 		`,
 		body: html`
 			<main>
-				<h1 class=title>
-					Aeon Atlea
+				<h1 class=banner style="background-image: url('/assets/posters/002.webp')">
+					Atlea
 				</h1>
+
 				<atl-showcase images="
 					=> /assets/concepts/013.webp
 						rough luxium ore in its rough natural state
@@ -25,7 +26,9 @@ export default template(async basic => {
 					=> /assets/concepts/005.webp
 					=> /assets/concepts/006.webp
 					=> /assets/concepts/007.webp
-				"></atl-showcase>
+					">
+					luxium aureum
+				</atl-showcase>
 			</main>
 		`,
 	})

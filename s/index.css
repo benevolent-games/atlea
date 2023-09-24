@@ -31,7 +31,7 @@ main {
 	margin: auto;
 	background: #0002;
 
-	> .title {
+	> .banner {
 		font-size: 3em;
 
 		display: flex;
@@ -40,7 +40,8 @@ main {
 
 		width: 100%;
 		aspect-ratio: 6 / 1;
-		background-image: url('/assets/posters/002.webp');
+
+		background-color: #0002;
 		background-size: cover;
 		background-position: center;
 

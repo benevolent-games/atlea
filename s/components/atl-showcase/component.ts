@@ -3,6 +3,7 @@ import {html} from "lit"
 import {Attributes, GoldElement} from "@benev/slate"
 
 import {style} from "./style.js"
+import {when} from "../../tools/ezlit.js"
 import {component} from "../../framework/frontend.js"
 
 export const AtlShowcase = component(context => class extends GoldElement {
@@ -15,10 +16,6 @@ export const AtlShowcase = component(context => class extends GoldElement {
 	#state = context.flat.state({
 		index: 0,
 	})
-
-	#next = () => {
-		this.#state.index++
-	}
 
 	get images() {
 		return (this.#attrs.images ?? "")
@@ -53,27 +50,28 @@ export const AtlShowcase = component(context => class extends GoldElement {
 			return html`<p>error: no current image</p>`
 
 		return html`
+			<header>
+				<slot></slot>
+			</header>
+
 			<figure>
-				<img class=image
-					src="${current_image.url}"
-					alt=""
-					/>
-				<figcaption class=caption>
+				<img src="${current_image.url}" alt=""/>
+				<figcaption>
 					${current_image.caption}
 				</figcaption>
 			</figure>
-			${((images.length > 1) || "") && html`
+
+			${when(images.length > 1, () => html`
 				<div class=thumbs>
 					${images.map((image, index) => html`
-						<img
-							alt=""
-							src="${image.url}"
-							?data-active=${index === current_index}
+						<button
 							@click=${this.#click_thumb(index)}
-							/>
+							?data-active=${index === current_index}>
+							<img alt="" src="${image.url}"/>
+						</button>
 					`)}
 				</div>
-			`}
+			`)}
 		`
 	}
 })
