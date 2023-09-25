@@ -50,10 +50,6 @@ export const AtlShowcase = component(context => class extends GoldElement {
 			return html`<p>error: no current image</p>`
 
 		return html`
-			<header>
-				<slot></slot>
-			</header>
-
 			<figure>
 				<img src="${current_image.url}" alt=""/>
 				<figcaption>
@@ -72,6 +68,8 @@ export const AtlShowcase = component(context => class extends GoldElement {
 					`)}
 				</div>
 			`)}
+
+			<slot></slot>
 		`
 	}
 })

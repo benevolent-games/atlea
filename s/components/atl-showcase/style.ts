@@ -7,40 +7,42 @@ export const style = css`
 	display: flex;
 	flex-direction: column;
 	width: 20em;
-	background: #0003;
 }
-
-:host > figure { display: contents; }
-
-:host > header {order: 1; }
-:host > figure > img { order: 2; }
-:host > .thumbs { order: 3; }
-:host > figure > figcaption { order: 4; }
 
 :host > header {
 	padding: 0.5em;
-	text-align: center;
+	text-align: left;
 }
 
 :host > figure {
+	position: relative;
+
 	> img {
 		display: block;
 		width: 100%;
+		pointer-events: none;
 	}
 
 	> figcaption {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
 		display: block;
-		padding: 0.5em;
 		text-align: center;
+		background: #0004;
+		color: #fff8;
+		text-shadow: 1px 2px 1px #0008;
+		padding: 0.2em;
 	}
 }
 
 :host > .thumbs {
 	display: flex;
 	justify-content: center;
-	background: #0003;
-	width: 100%;
 	flex-wrap: wrap;
+	width: 100%;
+	background: #0003;
 
 	> button {
 		display: block;
@@ -61,7 +63,7 @@ export const style = css`
 		}
 
 		&[data-active] {
-			border-color: #fff8;
+			border-color: yellow;
 		}
 
 		> img {
@@ -69,8 +71,15 @@ export const style = css`
 			height: 100%;
 			object-fit: cover;
 			object-position: center;
+			pointer-events: none;
 		}
 	}
+}
+
+:host > slot {
+	display: block;
+	padding: 1em;
+	padding-bottom: 2em;
 }
 
 `
