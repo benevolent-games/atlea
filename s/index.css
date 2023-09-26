@@ -4,8 +4,9 @@
 html {
 	font-size: 16px;
 	font-family: "EB Garamond", serif;
+
+	color: #fffa;
 	background: #080808;
-	color: #fff8;
 }
 
 html, body {
@@ -65,6 +66,57 @@ main {
 		text-transform: uppercase;
 		text-shadow: 0.1em 0.1em 0.1em #0008;
 	}
+
+	> * + section {
+		margin-top: 2em;
+	}
+
+	> section {
+		position: relative;
+		overflow: hidden;
+
+		&::before, &::after {
+			content: "";
+			position: absolute;
+		}
+
+		&::before {
+			z-index: 0;
+			top: 0;
+			left: 0;
+			right: 0;
+			aspect-ratio: 3 / 1;
+			background: linear-gradient(to bottom, #1110 50%, #111f), var(--banner);
+			background-size: 100%, 100%;
+			background-position: center top, center top;
+			background-repeat: no-repeat, no-repeat;
+		}
+
+		&::after {
+			z-index: 1;
+			inset: 0;
+			background: linear-gradient(to bottom, #1110 80%, #111f);
+		}
+
+		> * {
+			position: relative;
+			z-index: 2;
+		}
+
+		> h1 {
+			font-size: 2em;
+			padding: 1em;
+			/* min-height: 16.67vw; */
+			display: flex;
+			justify-content: center;
+			align-items: center;
+
+			color: white;
+			letter-spacing: 0.1em;
+			text-transform: uppercase;
+			text-shadow: 0.1em 0.1em 0.1em #0008;
+		}
+	}
 }
 
 .columns {
@@ -78,11 +130,18 @@ main {
 	> * {
 		flex: 1 1 15em;
 		max-width: 30em;
-		background: #8881;
 		box-shadow: 0.2em 0.3em 0.5em #0008;
 
 		&:is(div) {
 			padding: 1em;
+		}
+
+		&:is(div, atl-showcase) {
+			background: #222a;
+			border-radius: 0.2em;
+			backdrop-filter: blur(1em);
+			text-shadow: 0.1em 0.1em 0.1em #0008;
+			overflow: hidden;
 		}
 	}
 }
