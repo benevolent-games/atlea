@@ -14,7 +14,7 @@
 	"scripts": {
 		"build": "turtle-standard && ln -s $(realpath assets) x/assets",
 		"start": "turtle-standard-watch",
-		"img": "batchimage --in 'assets/temp' --out 'assets' --format 'webp' --quality '75' --size '800'",
+		"img": "batchimage --in 'assets/temp' --out 'assets' --format 'webp' --quality '80'",
 		"test": "exit 0"
 	},
 	"dependencies": {

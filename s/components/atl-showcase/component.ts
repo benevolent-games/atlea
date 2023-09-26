@@ -69,7 +69,9 @@ export const AtlShowcase = component(context => class extends GoldElement {
 				</div>
 			`)}
 
-			<slot></slot>
+			${this.childElementCount > 0
+				? html`<slot></slot>`
+				: undefined}
 		`
 	}
 })
