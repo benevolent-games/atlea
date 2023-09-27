@@ -25,13 +25,17 @@ export default template(async basic => {
 					<div class=columns>
 						<atl-showcase images="
 							=> /assets/concepts/048.webp
+								Thirty-thousand years ago the Mid-Atlantic Ridge was above water and supported a flourishing civilization. This is the Atlean Archipelago.
 							=> /assets/concepts/049.webp
+								New players start in a random location on a large island, somewhere in the northern Falrysk Region of Atlea.
 						"></atl-showcase>
 						<atl-showcase images="
 							=> /assets/concepts/045.webp
-							=> /assets/concepts/046.webp
+								Explore the landscape, and surely you'll happen upon a small homestead or village. Perhaps they'll offer you food and shelter.
 							=> /assets/concepts/047.webp
+								NPC characters in Atlea are bustling with activity. Every NPC has their own needs, wants, and fears, and engage with the environment.
 							=> /assets/concepts/063.webp
+								The economy depends on how NPCs negotiate trades with one another. If you find a community that has a need, perhaps you could provide for it and earn riches by playing the market as a trader. Supply and demand.
 							=> /assets/concepts/064.webp
 						"></atl-showcase>
 					</div>

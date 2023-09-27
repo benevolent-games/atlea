@@ -30,9 +30,9 @@ export const style = css`
 		right: 0;
 		display: block;
 		text-align: center;
-		background: #0004;
-		color: #fff8;
-		text-shadow: 1px 2px 1px #0008;
+		color: #fffc;
+		background: #1118;
+		text-shadow: 1px 2px 1px #000c;
 		padding: 0.2em;
 	}
 }

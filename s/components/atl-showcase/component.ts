@@ -52,9 +52,9 @@ export const AtlShowcase = component(context => class extends GoldElement {
 		return html`
 			<figure>
 				<img src="${current_image.url}" alt=""/>
-				<figcaption>
-					${current_image.caption}
-				</figcaption>
+				${current_image.caption
+					? html`<figcaption>${current_image.caption}</figcaption>`
+					: undefined}
 			</figure>
 
 			${when(images.length > 1, () => html`
