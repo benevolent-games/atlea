@@ -1,12 +1,16 @@
 
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Glory&family=Red+Hat+Display:wght@700&display=swap');
 
 html {
 	font-size: 16px;
-	font-family: "EB Garamond", serif;
+	font-family: "Glory", serif;
 
 	color: #fffa;
-	background: #080808;
+	--bg: #000000f0;
+	background:
+		linear-gradient(var(--bg), var(--bg)),
+		url('/assets/backgrounds/002.webp') #000;
+	background-size: cover, 512px;
 }
 
 html, body {
@@ -29,73 +33,70 @@ body { padding-bottom: 10em; }
 	scrollbar-width: thin;
 }
 
+a:link {
+	color: cyan;
+}
+
 .wip {
 	color: yellow;
 	font-weight: bold;
 	font-size: 1.2em;
 }
 
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Red Hat Display", serif;
+	font-weight: 700;
+	color: #f4c14ae5;
+	color: #fff4;
+}
+
 main {
 	width: 200em;
 	max-width: 100vw;
 	margin: auto;
-	background: #111;
 	padding-bottom: 4em;
 
-	> * + h1 {
-		margin-top: 1em;
-	}
-
-	> .banner {
-		font-size: 2em;
-		padding: 0.5em;
-
-		display: flex;
-		justify-content: center;
-		align-items: center;
-
+	> hr {
+		content: "";
+		display: block;
 		width: 100%;
-		aspect-ratio: 6 / 1;
+		height: 1em;
+		background-size: 100% 100%;
+		border: none;
+		box-shadow: 0 0 0.5em #000;
+		position: relative;
+		z-index: 1;
+		background: url('/assets/graphics/stonetrim-001.webp');
 
-		background-color: #0002;
-		background-size: cover;
-		background-position: center;
+		--inner: #fddb58;
+		--outer: #f5a032;
 
-		color: white;
-		letter-spacing: 0.1em;
-		text-transform: uppercase;
-		text-shadow: 0.1em 0.1em 0.1em #0008;
-	}
+		background: linear-gradient(to right, var(--outer), var(--inner), var(--outer));
 
-	> * + section {
-		margin-top: 2em;
+		border-top: 2px solid #fff2;
+		border-bottom: 2px solid #0004;
 	}
 
 	> section {
 		position: relative;
 		overflow: hidden;
+		padding-bottom: 2em;
 
-		&::before, &::after {
+		&::after {
 			content: "";
+			display: block;
 			position: absolute;
-		}
-
-		&::before {
 			z-index: 0;
 			top: 0;
 			left: 0;
 			right: 0;
 			aspect-ratio: 3 / 1;
-			background: linear-gradient(to bottom, #1110 50%, #111f), var(--banner);
-			background-size: 100%, 100%;
-			background-position: center top, center top;
-			background-repeat: no-repeat, no-repeat;
-		}
-
-		&::after {
-			z-index: 1;
-			inset: 0;
-			background: linear-gradient(to bottom, #1110 80%, #111f);
+			background: var(--banner);
+			background-size: 100%;
+			background-position: center top;
+			background-repeat: no-repeat;
+			-webkit-mask-image: linear-gradient(#000f 50%, #0000);
+			mask-image: linear-gradient(#000f 50%, #0000);
 		}
 
 		> * {
@@ -104,12 +105,13 @@ main {
 		}
 
 		> h1 {
-			font-size: 2em;
-			padding: 1em;
+			font-size: 3em;
+			padding: 1.5em;
 			/* min-height: 16.67vw; */
 			display: flex;
 			justify-content: center;
 			align-items: center;
+			text-align: center;
 
 			color: white;
 			letter-spacing: 0.1em;
@@ -138,10 +140,27 @@ main {
 
 		&:is(div, atl-showcase) {
 			background: #222a;
-			border-radius: 0.2em;
+			border-radius: 0.3em;
 			backdrop-filter: blur(1em);
 			text-shadow: 0.1em 0.1em 0.1em #0008;
 			overflow: hidden;
+			background: transparent;
+
+			position: relative;
+
+			&::before {
+				opacity: 0.8;
+				content: "";
+				position: absolute;
+				display: block;
+				inset: 0;
+				--bg: #111111f8;
+				background:
+					linear-gradient(var(--bg), var(--bg)),
+					url('/assets/backgrounds/001.webp');
+				background-size: cover, 128px;
+				z-index: -1;
+			}
 		}
 	}
 }

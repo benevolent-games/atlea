@@ -16,24 +16,6 @@ export default template(async basic => {
 			<main>
 
 				<section style="--banner: url('/assets/banners/001.webp')">
-					<h1>Atlea Game Design</h1>
-
-					<div class=columns>
-						<div>
-							<h2>This website is a game design document</h2>
-							<p>Here we're attempting to outline and describe the design of our ambitious game project.</p>
-							<p>Our development approach is to first build the co-op dungeon crawling aspect of the game, and then expand the scope from there.</p>
-							<p class=wip>We're still working on this document, it's not done yet.</p>
-						</div>
-						<div>
-							<h2>A Benevolent Project</h2>
-							<p>Like any <a href="https://benevolent.games/">Benevolent Games</a> project, this game will be free, open source, instantly playable on any device, and funded by the community.</p>
-						</div>
-					</div>
-				</section>
-
-
-				<section style="--banner: url('/assets/banners/005.webp')">
 					<h1>Welcome To Atlea</h1>
 
 					<div class=columns>
@@ -70,7 +52,25 @@ export default template(async basic => {
 					</div>
 				</section>
 
+				<hr/>
+				<section style="--banner: url('/assets/banners/005.webp')">
+					<h1>Atlea Game Design</h1>
 
+					<div class=columns>
+						<div>
+							<h2>This website is a game design document</h2>
+							<p>Here we're attempting to outline and describe the design of our ambitious game project.</p>
+							<p>Our development approach is to first build the co-op dungeon crawling aspect of the game, and then expand the scope from there.</p>
+							<p class=wip>We're still working on this document, it's not done yet.</p>
+						</div>
+						<div>
+							<h2>A Benevolent Project</h2>
+							<p>Like any <a href="https://benevolent.games/">Benevolent Games</a> project, this game will be free, open source, instantly playable on any device, and funded by the community.</p>
+						</div>
+					</div>
+				</section>
+
+				<hr/>
 				<section style="--banner: url('/assets/banners/002.webp')">
 					<h1>
 						Features and Design Decisions
@@ -116,7 +116,8 @@ export default template(async basic => {
 					</div>
 				</section>
 
-				<section style="--banner: url('/assets/posters/003.webp')">
+				<hr/>
+				<section style="--banner: url('/assets/banners/003.webp')">
 					<h1>From Heaven To Earth They Came</h1>
 
 					<div class=columns>
@@ -144,7 +145,8 @@ export default template(async basic => {
 					</div>
 				</section>
 
-				<section style="--banner: url('/assets/posters/002.webp')">
+				<hr/>
+				<section style="--banner: url('/assets/banners/002.webp')">
 					<h1>The Wrynthic Order</h1>
 
 					<div class=card>
