@@ -15,8 +15,12 @@ export default template(async basic => {
 		body: html`
 			<main>
 
+				<hr/>
 				<section style="--banner: url('/assets/banners/001.webp')">
-					<h1>Welcome To Atlea</h1>
+					<h1>
+						<span>Atlea</span>
+						<span>Open World RPG</span>
+					</h1>
 
 					<div class=columns>
 						<atl-showcase images="

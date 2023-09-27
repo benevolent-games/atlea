@@ -10,7 +10,7 @@ html {
 	background:
 		linear-gradient(var(--bg), var(--bg)),
 		url('/assets/backgrounds/002.webp') #000;
-	background-size: cover, 512px;
+	background-size: cover, 256px;
 }
 
 html, body {
@@ -48,6 +48,15 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 700;
 	color: #f4c14ae5;
 	color: #fff4;
+
+	& > span {
+		display: block;
+
+		&:not(:first-child) {
+			opacity: 0.8;
+			font-size: 0.5em;
+		}
+	}
 }
 
 main {
@@ -109,6 +118,7 @@ main {
 			padding: 1.5em;
 			/* min-height: 16.67vw; */
 			display: flex;
+			flex-direction: column;
 			justify-content: center;
 			align-items: center;
 			text-align: center;
