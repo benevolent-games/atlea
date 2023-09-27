@@ -20,20 +20,20 @@ export const style = css`
 	> img {
 		display: block;
 		width: 100%;
-		pointer-events: none;
 	}
 
 	> figcaption {
 		position: absolute;
+		padding: 0.2em;
 		bottom: 0;
 		left: 0;
 		right: 0;
 		display: block;
 		text-align: center;
 		color: #fffc;
-		background: #1118;
+		background: #0004;
+		backdrop-filter: blur(0.5em);
 		text-shadow: 1px 2px 1px #000c;
-		padding: 0.2em;
 	}
 }
 
@@ -48,8 +48,8 @@ export const style = css`
 		display: block;
 		flex: 1 1 1em;
 
-		height: 4em;
-		max-width: 4em;
+		height: 6em;
+		max-width: 6em;
 		min-width: 1em;
 
 		border: none;
@@ -63,7 +63,7 @@ export const style = css`
 		}
 
 		&[data-active] {
-			border-color: yellow;
+			border-color: #fb0;
 		}
 
 		> img {

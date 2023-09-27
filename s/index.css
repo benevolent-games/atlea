@@ -33,9 +33,10 @@ body { padding-bottom: 10em; }
 	scrollbar-width: thin;
 }
 
-a:link {
-	color: cyan;
-}
+a { color: deepskyblue; }
+a:visited { color: skyblue; }
+a:hover { color: color-mix(in hsl, white, deepskyblue); }
+a:active { color: white; }
 
 .wip {
 	color: yellow;
@@ -168,7 +169,7 @@ main {
 				background:
 					linear-gradient(var(--bg), var(--bg)),
 					url('/assets/backgrounds/001.webp');
-				background-size: cover, 128px;
+				background-size: cover, 90px;
 				z-index: -1;
 			}
 		}

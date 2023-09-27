@@ -63,7 +63,7 @@ export const AtlShowcase = component(context => class extends GoldElement {
 						<button
 							@click=${this.#click_thumb(index)}
 							?data-active=${index === current_index}>
-							<img alt="" src="${image.url}"/>
+							<img alt="" src="${image.url}" draggable="false"/>
 						</button>
 					`)}
 				</div>

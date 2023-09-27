@@ -25,44 +25,54 @@ export default template(async basic => {
 					<div class=columns>
 						<atl-showcase images="
 							=> /assets/concepts/048.webp
-								Thirty-thousand years ago the Mid-Atlantic Ridge was above water and supported a flourishing civilization. This is the Atlean Archipelago.
+								Thirty-thousand years ago, The Atlean Archipelago was above sea level, and supported a flourishing civilization. The game starts on a random island in Atlea's northern region, Falrysk.
 							=> /assets/concepts/049.webp
-								New players start in a random location on a large island, somewhere in the northern Falrysk Region of Atlea.
+								The large island has a dynamic landscape. With rugged mountains, vast plains, and secluded valleys. It is populated by many towns, and the landscape is dotted with countless rural settlements and self-sufficient homesteads.
 						"></atl-showcase>
 						<atl-showcase images="
+							=> /assets/concepts/068.webp
+								As a new player, you will start with nothing but peasant clothing, at a random location on the island. You'll have to rely on your wits to find food, shelter, and adventure.
 							=> /assets/concepts/045.webp
-								Explore the landscape, and surely you'll happen upon a small homestead or village. Perhaps they'll offer you food and shelter.
-							=> /assets/concepts/047.webp
-								NPC characters in Atlea are bustling with activity. Every NPC has their own needs, wants, and fears, and engage with the environment.
-							=> /assets/concepts/063.webp
-								The economy depends on how NPCs negotiate trades with one another. If you find a community that has a need, perhaps you could provide for it and earn riches by playing the market as a trader. Supply and demand.
-							=> /assets/concepts/064.webp
+								Explore the landscape, and surely you'll happen upon a small homestead or village. Perhaps they'll offer to help you.
 						"></atl-showcase>
 					</div>
 
 					<div class=columns>
 						<atl-showcase images="
 							=> /assets/concepts/057.webp
-							=> /assets/concepts/060.webp
 							=> /assets/concepts/061.webp
+							=> /assets/concepts/066.webp
+							=> /assets/concepts/060.webp
+						"></atl-showcase>
+						<atl-showcase images="
+							=> /assets/concepts/047.webp
+								Towns in Atlea are bustling with activity. Every character engages with the environment, and has their own wants, needs, and relationships.
+							=> /assets/concepts/063.webp
+								If you find a community that has a need, perhaps you could provide for it, and earn riches by playing the market as a trader. It's all just supply and demand.
+						"></atl-showcase>
+					</div>
+
+					<div class=columns>
+						<atl-showcase images="
 							=> /assets/concepts/059.webp
-							=> /assets/concepts/058.webp
 							=> /assets/concepts/065.webp
+							=> /assets/concepts/058.webp
 							=> /assets/concepts/062.webp
 						"></atl-showcase>
 						<atl-showcase images="
-							=> /assets/concepts/053.webp
-							=> /assets/concepts/052.webp
 							=> /assets/concepts/055.webp
+								The wretched bog is a no man's land that surrounds the Wrynth Tower.
 							=> /assets/concepts/054.webp
+								Since you're a new player, I don't advise trespassing here.
 							=> /assets/concepts/056.webp
+								The Wrynth Tower. They built one on every island in Falrysk. Sometimes it emits a deep thumping sound, which can be felt through the ground for miles.
 						"></atl-showcase>
 					</div>
 				</section>
 
 				<hr/>
 				<section style="--banner: url('/assets/banners/005.webp')">
-					<h1>Atlea Game Design</h1>
+					<h1>Open Game Development</h1>
 
 					<div class=columns>
 						<div>
@@ -73,7 +83,7 @@ export default template(async basic => {
 						</div>
 						<div>
 							<h2>A Benevolent Project</h2>
-							<p>Like any <a href="https://benevolent.games/">Benevolent Games</a> project, this game will be free, open source, instantly playable on any device, and funded by the community.</p>
+							<p>Like all <a href="https://benevolent.games/">Benevolent Games</a>, Atlea will be free, open source, instantly playable on any device, and funded by the community.</p>
 						</div>
 					</div>
 				</section>
@@ -81,7 +91,7 @@ export default template(async basic => {
 				<hr/>
 				<section style="--banner: url('/assets/banners/002.webp')">
 					<h1>
-						Features and Design Decisions
+						Features and Design
 					</h1>
 
 					<div class=columns>
@@ -92,13 +102,6 @@ export default template(async basic => {
 							=> /assets/concepts/019.webp
 							"></atl-showcase>
 						<div>
-							<h2>Every New Game is a Unique Island</h2>
-							<p>You can generate as many unique islands to play on as you'd like. They're all randomly procedurally generated, and massive.</p>
-							<p>The characters you create are transferable to any of your islands.</p>
-							<h2>Co-op Gameplay</h2>
-							<p>You can send your friends an invite link at any moment, for them to join your adventure.</p>
-						</div>
-						<div>
 							<h2>Build Your Character</h2>
 							<p>You can make as many characters as you like.</p>
 							<p>Like any RPG, you earn ability points, and climb a tech tree which can take your character into a few different playstyle directions.</p>
@@ -107,12 +110,22 @@ export default template(async basic => {
 							<p>We're longtime Chivalry and Mordhau players, so we're massively inspired by the way they've done melee combat mechanics, so we're dying to bring this kind of immersive gameplay experience to the RPG genre.</p>
 						</div>
 						<div>
+							<h2>Every New Game is a Unique Island</h2>
+							<p>You can generate as many unique islands to play on as you'd like. They're all randomly procedurally generated, and massive.</p>
+							<p>The characters you create are transferable to any of your islands.</p>
+							<h2>Co-op Gameplay</h2>
+							<p>You can send your friends an invite link at any moment, for them to join your adventure.</p>
+							<h2>Day/Night Cycle</h2>
+							<p>An Atlean day is one hour of real-life time, including ten minutes of night.</p>
+							<p>A season passes every two weeks, thus, an Atlean year is 56 Atlean days (56 hours of gameplay).</p>
+						</div>
+						<div>
 							<h2>Make Games Frustrating Again!</h2>
 							<p>Games are too bland these days. So, we're making perma-death the default mode. Danger and risk enables courage and bravery. Don't worry, our game isn't super grindy, so you can build back a competent character quick enough.</p>
-							<h2>No fast travel.</h2>
+							<h2>No Fast Travel</h2>
 							<p>We refuse to elaborate.</p>
-							<h2>When you make a new character,</h2>
-							<p>You can spawn near the original home town, or at any of your team's camps or houses.</p>
+							<h2>Spawn at Camp</h2>
+							<p>Your new character can spawn near any of your team's camps or houses.</p>
 						</div>
 						<div>
 							<h2>Emergence Over Scripted Narrative</h2>
@@ -131,22 +144,25 @@ export default template(async basic => {
 					<div class=columns>
 						<atl-showcase images="
 								=> /assets/concepts/043.webp
-								=> /assets/concepts/042.webp
 							">
-							<h2>Thirty thousand years ago,</h2>
-							<p><em>The Wrynth</em> descended upon Earth with a one objective: to strip our world of its most precious resource. The subjugation of humans is only a means to that end.</p>
+							<h2>The Element of Golden Light</h2>
+							<p>The invaders descended upon Earth with one objective: to strip our world of its most precious resource.</p>
 							<p><em>"Luxium Aureum"</em> is Gold 223, a glowing isotope of Gold.</p>
-							<p>The game takes place on an island in Greater Atlea, decades after the invaders first landed. You will participate in, or at least bear witness to, the dynamically-unfolding story of human complacency, resistance, and complicity, to the cold reign of The Wrynth.</p>
+							<p>The game starts a few decades after the invaders first landed. You will participate in, or at least bear witness to, the dynamically-unfolding story of human complacency, resistance, and complicity, to the cold reign of <em>The Wrynth.</em></p>
 						</atl-showcase>
 						<atl-showcase images="
 								=> /assets/concepts/013.webp
 									Rough Luxium ore in its natural state
-								=> /assets/concepts/003.webp
-									A refined bar of Luxium Aureum
 							">
 							<h2>Luxium Aureum</h2>
 							<p>To the layperson, its most obvious trick is that it brightens under pressure. Give it a squeeze with your hand, and it will emit enough light to guide you through the dark. At ambient air pressure, it continuously glows softly.</p>
 							<p>But to an alchemist, sorcerer, or Wrynth, the Luxium has far more important magical capabilities beyond its mere radioluminescence and piezoelectricity. It is the Philosopher's Stone, both the fuel and the instrument of its magic. Humans know little of how to control it.</p>
+						</atl-showcase>
+						<atl-showcase images="
+								=> /assets/concepts/067.webp
+									Miners collecting the precious ore
+							">
+							<h2>It Beckons</h2>
 							<p>Any significant quantity of Luxium has a radioactive signature. A beacon, which inevitably draws near the Wrynth Seekers tasked with finding the substance, wherever it lay.</p>
 							<p>The "lesser gold" we are familiar with in modern times (isotope 197) is regarded by the Wrynth as little more than a refinement byproduct.</p>
 						</atl-showcase>
@@ -281,7 +297,7 @@ export default template(async basic => {
 							=> /assets/concepts/026.webp
 							=> /assets/concepts/025.webp
 							">
-							<h2>Grand Executor</h2>
+							<h2>Grand Overseer</h2>
 							<p>Highest rank of Wrynth on Earth. Direct representative of the The Collectors. They oversee and coordinate the operations of the executors. They are not born on this world.</p>
 						</atl-showcase>
 					</div>
