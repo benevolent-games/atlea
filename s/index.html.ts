@@ -148,7 +148,7 @@ export default template(async basic => {
 							<h2>The Element of Golden Light</h2>
 							<p>The invaders descended upon Earth with one objective: to strip our world of its most precious resource.</p>
 							<p><em>"Luxium Aureum"</em> is Gold 223, a glowing isotope of Gold.</p>
-							<p>The game starts a few decades after the invaders first landed. You will participate in (or at least bear witness to) the dynamically unfolding story of human complacency, resistance, and complicity, to the cold reign of <em>The Wrynth.</em></p>
+							<p>The game starts a century after the invaders first landed. You will participate in (or at least bear witness to) the dynamically unfolding story of human complacency, resistance, and complicity, to the cold reign of <em>The Wrynth.</em></p>
 						</atl-showcase>
 						<atl-showcase images="
 								=> /assets/concepts/013.webp
@@ -174,8 +174,8 @@ export default template(async basic => {
 					<h1>The Wrynthic Order</h1>
 
 					<div class=card>
-						<h2>The Acolytes</h2>
-						<p>Men subservient to the Wrynth.</p>
+						<h2>Structures</h2>
+						<p>The Wrynth have built structures all across the island.</p>
 					</div>
 
 					<div class=columns>
@@ -188,9 +188,55 @@ export default template(async basic => {
 							=> /assets/concepts/087.webp
 							">
 							<h2>Wrynthic Shrines</h2>
-							<p>The Wrynth constructed a network of shrines across the island. The building above land is merely an entrance to the large underground indoctrination dungeon, where enslaved men are transformed into Acolytes to serve the Wrynth.</p>
+							<p>The Wrynth constructed a network of shrines across the island. The building above land is merely an entrance to a large underground dungeon, where enslaved men are indoctrinated and transformed into Acolytes to serve the Wrynth.</p>
 							<p>Emblematic of Wrynthic architecture, the shrines have smooth-cut interiors encased in rugged rocky exteriors.</p>
 						</atl-showcase>
+						<atl-showcase images="
+							=> /assets/concepts/074.webp
+							=> /assets/concepts/075.webp
+							=> /assets/concepts/082.webp
+							=> /assets/concepts/081.webp
+							=> /assets/concepts/090.webp
+							=> /assets/concepts/084.webp
+							=> /assets/concepts/085.webp
+							">
+							<h2>Wrynthic Mines</h2>
+							<p>These ornate triangular mine entrances are found throughout the mountainous regions. The mining operations continue nonstop, day and night. Acolytes are often deployed as guards to protect the workers from interference.</p>
+							<p>Workers live and die in the mines, never seeing sunlight. Underground fungal crops provide sustenance. Birthing chambers provide fresh workers to replace those killed by accidents or overwork.</p>
+						</atl-showcase>
+					</div>
+
+					<div class=columns>
+						<atl-showcase images="
+							=> /assets/concepts/080.webp
+							=> /assets/concepts/076.webp
+							=> /assets/concepts/077.webp
+							=> /assets/concepts/078.webp
+							=> /assets/concepts/079.webp
+							">
+							<h2>The Wrynth Tower</h2>
+							<p>On every island where the Wrynth conduct mining operations, they build one great tower.</p>
+							<p>At the tower, the Grand Overseer receives daily deliveries of refined ingots of Luxium. Each wagon load is escorted by an Executor with an armed retinue.</p>
+							<p>On occasion, the tower produces a deep thumping sound, reverberating through the ground, which can be heard miles away.</p>
+						</atl-showcase>
+						<atl-showcase images="
+							=> /assets/concepts/093.webp
+							=> /assets/concepts/092.webp
+							=> /assets/concepts/089.webp
+							=> /assets/concepts/052.webp
+							">
+							<h2>The Mud Bog</h2>
+							<p>The tower is surrounded by a terrible bog, within a massive volcanic caldera. The cursed swamp is a tangled mess of dead trees, bubbling acid pools, and steam geysers. Wretched creatures and wandering abominations thrive here, and make the land unpassable.</p>
+							<p>There is only one solid-ground pathway through the mudland, but it's heavily patrolled by Acolyte guards.</p>
+						</atl-showcase>
+					</div>
+
+					<div class=card>
+						<h2>The Acolytes</h2>
+						<p>Men subservient to the Wrynth.</p>
+					</div>
+
+					<div class=columns>
 						<atl-showcase images="
 							=> /assets/concepts/024.webp
 							=> /assets/concepts/009.webp
@@ -243,17 +289,6 @@ export default template(async basic => {
 
 					<div class=columns>
 						<atl-showcase images="
-							=> /assets/concepts/074.webp
-							=> /assets/concepts/075.webp
-							=> /assets/concepts/082.webp
-							=> /assets/concepts/083.webp
-							=> /assets/concepts/081.webp
-							">
-							<h2>Wrynthic Mines</h2>
-							<p>These ornate triangular mine entrances are found throughout the mountainous regions. The mining operations continue nonstop, day and night. Acolytes are often deployed as guards to protect the workers from interference.</p>
-							<p>Workers live and die in the mines, never seeing sunlight. Underground fungal crops provide sustenance, and birthing chambers provide fresh workers to replace those killed by accidents or overwork.</p>
-						</atl-showcase>
-						<atl-showcase images="
 							=> /assets/concepts/034.webp
 							=> /assets/concepts/033.webp
 							=> /assets/concepts/030.webp
@@ -280,9 +315,6 @@ export default template(async basic => {
 						<atl-showcase images="
 							=> /assets/concepts/027.webp
 							=> /assets/concepts/039.webp
-							=> /assets/concepts/084.webp
-							=> /assets/concepts/085.webp
-							=> /assets/concepts/090.webp
 							">
 							<h2>Cultivator</h2>
 							<p>Fast moving arachnoid. Found tending to the fungal crops or birthing chambers, they're defensive of their brood, and may stab at you with their long arms.</p>
@@ -296,27 +328,6 @@ export default template(async basic => {
 					</div>
 
 					<div class=columns>
-						<atl-showcase images="
-							=> /assets/concepts/080.webp
-							=> /assets/concepts/076.webp
-							=> /assets/concepts/077.webp
-							=> /assets/concepts/078.webp
-							=> /assets/concepts/079.webp
-							">
-							<h2>The Wrynth Tower</h2>
-							<p>On every island where the Wrynth conduct mining operations, they build one great tower.</p>
-							<p>At the tower, the Grand Overseer receives daily deliveries of refined ingots of Luxium. Each wagon load is escorted by an Executor with an armed retinue.</p>
-							<p>On occasion, the tower produces a deep thumping sound, reverberating through the ground, which can be heard miles away.</p>
-						</atl-showcase>
-						<atl-showcase images="
-							=> /assets/concepts/093.webp
-							=> /assets/concepts/092.webp
-							=> /assets/concepts/089.webp
-							=> /assets/concepts/052.webp
-							">
-							<h2>The Mud Bog</h2>
-							<p>The tower is surrounded by terrible bog, within a massive volcanic caldera. The cursed swamp is a tangled mess of dead trees and bubbling acid pools. Wretched creatures and wandering abominations thrive here. There is only one solid-ground pathway through the mudland, but it's heavily patrolled by Acolyte guards.</p>
-						</atl-showcase>
 						<atl-showcase images="
 							=> /assets/concepts/023.webp
 							=> /assets/concepts/020.webp
