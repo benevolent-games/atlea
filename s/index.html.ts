@@ -40,15 +40,15 @@ export default template(async basic => {
 					<div class=columns>
 						<atl-showcase images="
 							=> /assets/concepts/047.webp
-								Towns in Atlea are bustling with activity. Every character engages dynamically with the world, and has their own wants, needs, relationships, and more.
+								Towns are bustling with activity. Every character engages dynamically with the world, and has their own wants, needs, relationships, and more.
 							=> /assets/concepts/063.webp
 								If you find a town that has a need, perhaps you could provide for it, and earn riches by playing the market as a trader. It's all just supply and demand.
 						"></atl-showcase>
 						<atl-showcase images="
 							=> /assets/concepts/057.webp
-								Get on a horse. Travel faster. Should you buy a horse? Can you get away with stealing one?
+								Get on a horse. Travel faster. Can you buy a horse? Can you get away with stealing one?
 							=> /assets/concepts/061.webp
-								As you make progress, choose abilities to specialize your character in skills that interest you. Archery, swordsmanship, sorcery – you name it!
+								As you make progress, choose abilities to specialize your character in skills that interest you. Archery, swordsmanship, sorcery, alchemy, blacksmithing...
 							=> /assets/concepts/066.webp
 								Invite friends to join your co-op adventure.
 							=> /assets/concepts/060.webp
@@ -65,7 +65,7 @@ export default template(async basic => {
 							=> /assets/concepts/058.webp
 								Dress warm for the cold, or you could freeze to death. Your adventures may take you far and wide. What are you looking for?
 							=> /assets/concepts/062.webp
-								A wise wizard of the mountains could be a powerful ally. Or a dangerous enemy. Or an ideal mentor for your sorcery. What will it be?
+								A wise wizard of the mountains could be a powerful ally. Or a dangerous enemy. Or an ideal mentor in sorcery. Which will it be?
 						"></atl-showcase>
 						<atl-showcase images="
 							=> /assets/concepts/055.webp
@@ -73,7 +73,7 @@ export default template(async basic => {
 							=> /assets/concepts/054.webp
 								Since you're a new player, I advise turning back here.
 							=> /assets/concepts/056.webp
-								The Tower. There is one on every island in Falrysk. Sometimes it emits a deep thumping sound, which can be felt through the ground for miles.
+								The Tower. Sometimes it emits a deep thumping sound, which can be felt through the ground for miles.
 						"></atl-showcase>
 					</div>
 				</section>
@@ -103,7 +103,7 @@ export default template(async basic => {
 				<hr/>
 				<section style="--banner: url('/assets/banners/002.webp')">
 					<h1>
-						Design Features
+						Design Philosophy
 					</h1>
 
 					<div class=columns>
@@ -112,33 +112,37 @@ export default template(async basic => {
 							=> /assets/concepts/001.webp
 							=> /assets/concepts/018.webp
 							=> /assets/concepts/019.webp
-							"></atl-showcase>
-						<div>
+							">
 							<h2>Build Your Character</h2>
 							<p>You can make as many characters as you like.</p>
-							<p>Like any RPG, you earn ability points, and climb a tech tree which can take your character into a few different playstyle directions.</p>
-							<p>You can get good at swords, archery, sorcery, blacksmithing, trading, agriculture (maybe lol), sailing or whatever.</p>
-							<h2>Skill-based Combat</h2>
-							<p>We're longtime Chivalry and Mordhau players, so we're massively inspired by the way they've done melee combat mechanics, so we're dying to bring this kind of immersive gameplay experience to the RPG genre.</p>
-						</div>
-						<div>
-							<h2>Make Games Frustrating Again!</h2>
-							<p>Games are too bland these days. So, we're making perma-death the default mode. Danger and risk are prerequisites for courage, bravery, and achievement.</p>
-							<p>Don't worry, our game isn't super grindy, so you can build back a competent character quick enough, and you can spawn at your nearest camp.</p>
-							<h2>No Fast Travel</h2>
-							<p>We refuse to elaborate.</p>
-							<h2>Spawn at Camp</h2>
-							<p>Your new character can spawn near any of your team's camps or houses. You can add a new character to your roster at any time.</p>
-						</div>
+						</atl-showcase>
 						<div>
 							<h2>Every New Game is a Unique Island</h2>
 							<p>You can generate as many unique islands to play on as you'd like. They're all randomly procedurally generated, and massive.</p>
 							<p>The characters you create are transferable to any of your islands.</p>
+							<h2>Ability Skill Tree</h2>
+							<p>Like any RPG, you earn ability points, and climb a tech tree specializes your character into a few different playstyle directions.</p>
+							<p>You can get good at swords, archery, sorcery, blacksmithing, trading, agriculture (maybe lol), sailing or whatever.</p>
+							<h2>Good Combat</h2>
+							<p>We're longtime Chivalry and Mordhau players, so we're massively inspired by the way they've done melee combat mechanics. We're dying to bring this kind of immersive gameplay experience to the RPG genre.</p>
+							<h2>Perma-death. Full-blown roguelike.</h2>
+							<p>Games are too bland and hand-holdy these days.</p>
+							<p>We believe that danger and risk are the necessary prerequisites for courage, bravery, and achievement.</p>
+							<h2>No fast travel.</h2>
+							<p>We refuse to elaborate.</p>
+						</div>
+						<div>
 							<h2>Co-op Gameplay</h2>
 							<p>You can send your friends an invite link at any moment, for them to join your adventure.</p>
 							<h2>Day/Night Cycle</h2>
 							<p>An Atlean day is one hour of real-life time, including ten minutes of night.</p>
 							<p>A season passes every two weeks, thus, an Atlean year is 56 Atlean days (56 hours of gameplay).</p>
+							<h2>Spawn at Camp</h2>
+							<p>Your new character can spawn near any of your team's camps or houses. You can add a new character to your roster at any time.</p>
+							<p>When you're at any camp, you can safely "store" a character away for safe-keeping, then create a new character at any camp.</p>
+							<h2>Not super grindy.</h2>
+							<p>Considering perma-death, we know the game can't be super grindy.</p>
+							<p>Let's say you're playing co-op with your friends. If you die, you'll just spawn as a new character at your nearest camp, grab a stick, and run back into the fight with your buddies. Sure, it's humiliating to be in peasant clothes again, but your fresh character will be "weak", not "utterly useless", and that's a big difference. In a couple hours, you'll be back up to speed with good skill tree abilities.</p>
 						</div>
 						<div>
 							<h2>Emergence Over Scripted Narrative</h2>
@@ -146,6 +150,11 @@ export default template(async basic => {
 							<p>Players should be free of mandated obligations, so their own adventures and stories can emerge organically.</p>
 							<p>So our game takes a bottom-up "simulator" approach, inspired by Rimworld and Dwarf Fortress.</p>
 							<p>In this world, everything you do, or don't, has consequences. Nobody can predict the outcome.</p>
+							<h2>Play it your way.</h2>
+							<p>We're building a playground for gamers to play however they want.</p>
+							<p>Players will be able to start a custom-mode game, where they can disable perma-death, and have more health, stuff like that.</p>
+							<p>We'll allow players to have a panel for enabling full-blown cheats, like godmode and stuff.</p>
+							<p>As an open source game, there will be forks, mods.. honestly, it will be beautiful chaos.</p>
 						</div>
 					</div>
 				</section>
@@ -179,7 +188,7 @@ export default template(async basic => {
 							">
 							<h2>It Beckons</h2>
 							<p>Any significant quantity of Luxium has a radioactive signature. A beacon, which inevitably draws the Wrynth Seekers nearer.</p>
-							<p>During the invasion, the Wrynth demonstrated far more incredible magic using the substance, before which humans had never seen. This sparked a revolution among innovative alchemists and sorcerers to discover its hidden capabilities. Luxium is the Philosopher's Stone: both the fuel and the instrument of real magic.</p>
+							<p>Since they landed, the Wrynth demonstrated far more incredible magic using the substance than humans had ever seen. This has sparked an ongoing human revolution among innovative alchemists and sorcerers to discover its hidden capabilities, in an attempt to catch up with the Wrynth. Luxium is the Philosopher's Stone: both the fuel and the instrument of real magic.</p>
 						</atl-showcase>
 					</div>
 				</section>
@@ -233,7 +242,7 @@ export default template(async basic => {
 							<h2>The Wrynth Tower</h2>
 							<p>On every island where the Wrynth conduct mining operations, they build a great tower.</p>
 							<p>At the tower, the Grand Overseer receives daily deliveries of refined ingots of Luxium. Each wagon load is escorted by an Executor with an armed retinue.</p>
-							<p>On occasion, the tower produces a deep thumping sound, reverberating through the ground, which can be heard miles away. Other times, emits a low-frequency droning, rumbling, groaning sound.</p>
+							<p>On occasion, the tower produces a bone-chilling deep thumping sound, reverberating through the ground, which can be heard miles away. Other times, the tower emits a gut-wrenching low-frequency droning, rumbling, groaning sound.</p>
 						</atl-showcase>
 						<atl-showcase images="
 							=> /assets/concepts/093.webp
@@ -242,7 +251,7 @@ export default template(async basic => {
 							=> /assets/concepts/052.webp
 							">
 							<h2>The Mud Bog</h2>
-							<p>The tower is surrounded by a terrible bog, within a massive volcanic caldera. The cursed swamp is a tangled mess of dead trees, bubbling acid pools, and steam geysers. Wretched creatures and wandering abominations thrive here, and make the land unpassable.</p>
+							<p>The tower is surrounded by a terrible bog, within a massive volcanic caldera. The cursed swamp is a tangled mess of dead trees, bubbling acid pools, and steam geysers. Wretched creatures and wandering abominations thrive here.</p>
 							<p>There is only one solid-ground pathway through the mudland, but it's heavily patrolled by Acolyte guards.</p>
 						</atl-showcase>
 					</div>
@@ -348,7 +357,8 @@ export default template(async basic => {
 							=> /assets/concepts/020.webp
 							">
 							<h2>Seeker</h2>
-							<p>Specialized for the ability to remotely sense luxium. During mining operations, a seeker directs diggers and miners to ore deposits.</p>
+							<p>A Wrynth with no mask or helmet.</p>
+							<p>Specialized for the ability to remotely sense luxium. During mining operations, the seeker directs diggers and miners to ore deposits.</p>
 							<p>If threatened, it will throw deadly ball lightning. Up close, it can kill you quickly by touching you with its deadly electric hands.</p>
 							<p>Makes a terrible gurgling growling noise.</p>
 						</atl-showcase>
@@ -362,15 +372,24 @@ export default template(async basic => {
 							<p>Wields a massive two-handed sword, in one hand. Can telekinetically bend incoming arrows and throw enemies from a distance with one hand, all while feinting with a huge sword in the other.</p>
 							<p>You are in grave danger.</p>
 						</atl-showcase>
+					</div>
+					<div class=columns>
+						<atl-showcase images="
+							=> /assets/concepts/004.webp
+							">
+							<h2>Arachnid</h2>
+							<p>While the Wrynth often ride horses, they are sometimes seen riding giant spiders as mounts.</p>
+							<p>Generally, horses make better mounts for traveling, whereas the Wrynth prefer the arachnids in war, as they are heavily armored, and very aggressive and dangerous on their own, even without a rider.</p>
+						</atl-showcase>
 						<atl-showcase images="
 							=> /assets/concepts/041.webp
 							=> /assets/concepts/026.webp
 							=> /assets/concepts/025.webp
 							">
 							<h2>Grand Overseer</h2>
-							<p>Highest rank of Wrynth on Earth. Representative of the The Collectors. Lord of The Executors. Not born on Earth.</p>
-							<p>The Overseer can can vaporize people into dust, war-of-the-fucking-worlds style, from a distance, with its mind. We advise you not to mess with this guy.</p>
-							<p>Rarely leaves the Wrynth Tower.</p>
+							<p>Highest rank of Wrynth on Earth. Representative of the The Collectors. Lord of The Executors. Not born on Earth. Rarely leaves the Wrynth Tower.</p>
+							<p>The Overseer has immense powers. From a distance, with its mind, the Overseer can literally vaporize people into dust, war-of-the-fucking-worlds style.</p>
+							<p>We advise you not to mess with this guy.</p>
 						</atl-showcase>
 					</div>
 				</section>
