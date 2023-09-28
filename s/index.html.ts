@@ -27,7 +27,7 @@ export default template(async basic => {
 							=> /assets/concepts/048.webp
 								Thirty-thousand years ago, The Atlean Archipelago was above sea level, and supported a flourishing civilization. The game starts on a random island in Atlea's northern region, Falrysk.
 							=> /assets/concepts/049.webp
-								The large island has a dynamic landscape. With rugged mountains, vast plains, and secluded valleys. It is populated by many towns, and the landscape is dotted with countless rural settlements and self-sufficient homesteads.
+								The large island has a dynamic landscape. With rugged mountains, vast plains, and secluded valleys. It is populated by many towns, and the countryside is dotted with countless rural settlements and homesteads.
 						"></atl-showcase>
 						<atl-showcase images="
 							=> /assets/concepts/068.webp
@@ -72,16 +72,14 @@ export default template(async basic => {
 
 				<hr/>
 				<section style="--banner: url('/assets/banners/005.webp')">
-					<h1>Open Game Development</h1>
+					<h1>Open Source</h1>
 
 					<div class=columns>
 						<div>
 							<h2>This website is a game design document</h2>
+							<p class=wip>We're still working on this document, it's not done yet.</p>
 							<p>Here we're attempting to outline and describe the design of our ambitious game project.</p>
 							<p>Our development approach is to first build the co-op dungeon crawling aspect of the game, and then expand the scope from there.</p>
-							<p class=wip>We're still working on this document, it's not done yet.</p>
-						</div>
-						<div>
 							<h2>A Benevolent Project</h2>
 							<p>Like all <a href="https://benevolent.games/">Benevolent Games</a>, Atlea will be free, open source, instantly playable on any device, and funded by the community.</p>
 						</div>
@@ -91,7 +89,7 @@ export default template(async basic => {
 				<hr/>
 				<section style="--banner: url('/assets/banners/002.webp')">
 					<h1>
-						Features and Design
+						Design Features
 					</h1>
 
 					<div class=columns>
@@ -110,6 +108,15 @@ export default template(async basic => {
 							<p>We're longtime Chivalry and Mordhau players, so we're massively inspired by the way they've done melee combat mechanics, so we're dying to bring this kind of immersive gameplay experience to the RPG genre.</p>
 						</div>
 						<div>
+							<h2>Make Games Frustrating Again!</h2>
+							<p>Games are too bland these days. So, we're making perma-death the default mode. Danger and risk are prerequisites for courage, bravery, and achievement.</p>
+							<p>Don't worry, our game isn't super grindy, so you can build back a competent character quick enough, and you can spawn at your nearest camp.</p>
+							<h2>No Fast Travel</h2>
+							<p>We refuse to elaborate.</p>
+							<h2>Spawn at Camp</h2>
+							<p>Your new character can spawn near any of your team's camps or houses. You can add a new character to your roster at any time.</p>
+						</div>
+						<div>
 							<h2>Every New Game is a Unique Island</h2>
 							<p>You can generate as many unique islands to play on as you'd like. They're all randomly procedurally generated, and massive.</p>
 							<p>The characters you create are transferable to any of your islands.</p>
@@ -118,14 +125,6 @@ export default template(async basic => {
 							<h2>Day/Night Cycle</h2>
 							<p>An Atlean day is one hour of real-life time, including ten minutes of night.</p>
 							<p>A season passes every two weeks, thus, an Atlean year is 56 Atlean days (56 hours of gameplay).</p>
-						</div>
-						<div>
-							<h2>Make Games Frustrating Again!</h2>
-							<p>Games are too bland these days. So, we're making perma-death the default mode. Danger and risk enables courage and bravery. Don't worry, our game isn't super grindy, so you can build back a competent character quick enough.</p>
-							<h2>No Fast Travel</h2>
-							<p>We refuse to elaborate.</p>
-							<h2>Spawn at Camp</h2>
-							<p>Your new character can spawn near any of your team's camps or houses.</p>
 						</div>
 						<div>
 							<h2>Emergence Over Scripted Narrative</h2>
@@ -144,11 +143,12 @@ export default template(async basic => {
 					<div class=columns>
 						<atl-showcase images="
 								=> /assets/concepts/043.webp
+									The Night of Falling Stars
 							">
 							<h2>The Element of Golden Light</h2>
 							<p>The invaders descended upon Earth with one objective: to strip our world of its most precious resource.</p>
 							<p><em>"Luxium Aureum"</em> is Gold 223, a glowing isotope of Gold.</p>
-							<p>The game starts a few decades after the invaders first landed. You will participate in, or at least bear witness to, the dynamically-unfolding story of human complacency, resistance, and complicity, to the cold reign of <em>The Wrynth.</em></p>
+							<p>The game starts a few decades after the invaders first landed. You will participate in (or at least bear witness to) the dynamically unfolding story of human complacency, resistance, and complicity, to the cold reign of <em>The Wrynth.</em></p>
 						</atl-showcase>
 						<atl-showcase images="
 								=> /assets/concepts/013.webp
@@ -163,38 +163,48 @@ export default template(async basic => {
 									Miners collecting the precious ore
 							">
 							<h2>It Beckons</h2>
-							<p>Any significant quantity of Luxium has a radioactive signature. A beacon, which inevitably draws near the Wrynth Seekers tasked with finding the substance, wherever it lay.</p>
+							<p>Any significant quantity of Luxium has a radioactive signature. A beacon, which inevitably draws nearer the Wrynth Seekers tasked with finding the substance, wherever it lay.</p>
 							<p>The "lesser gold" we are familiar with in modern times (isotope 197) is regarded by the Wrynth as little more than a refinement byproduct.</p>
 						</atl-showcase>
 					</div>
 				</section>
 
 				<hr/>
-				<section style="--banner: url('/assets/banners/002.webp')">
+				<section style="--banner: url('/assets/banners/008.webp')">
 					<h1>The Wrynthic Order</h1>
 
 					<div class=card>
 						<h2>The Acolytes</h2>
-						<p>Men enslaved and brainwashed by the Wrynth.</p>
-						<p>They are indoctrinated and trained in Acolyte Temples, then are ready to deploy wherever the Wrynth need them.</p>
+						<p>Men subservient to the Wrynth.</p>
 					</div>
 
 					<div class=columns>
+						<atl-showcase images="
+							=> /assets/concepts/073.webp
+							=> /assets/concepts/072.webp
+							=> /assets/concepts/069.webp
+							=> /assets/concepts/088.webp
+							=> /assets/concepts/086.webp
+							=> /assets/concepts/087.webp
+							">
+							<h2>Wrynthic Shrines</h2>
+							<p>The Wrynth constructed a network of shrines across the island. The building above land is merely an entrance to the large underground indoctrination dungeon, where enslaved men are transformed into Acolytes to serve the Wrynth.</p>
+							<p>Emblematic of Wrynthic architecture, the shrines have smooth-cut interiors encased in rugged rocky exteriors.</p>
+						</atl-showcase>
 						<atl-showcase images="
 							=> /assets/concepts/024.webp
 							=> /assets/concepts/009.webp
 							">
 							<h2>Initiate</h2>
 							<p>The initiate monks are men that were enslaved by their own local lords, and handed over to the Wrynth as tribute of fealty.</p>
-							<p>They undergo intense obedience conditioning. Unarmored, and with waivering loyalty, they make weak opposition.</p>
+							<p>They undergo intense obedience conditioning. Malnourished, unarmored, and untrained in combat, they make weak opposition.</p>
 						</atl-showcase>
 						<atl-showcase images="
 							=> /assets/concepts/012.webp
 							=> /assets/concepts/011.webp
 							">
 							<h2>Zealot</h2>
-							<p>A man-at-arms wearing light armor and armed with formidable weaponry. Zealots were initiates unsuited for sorcery, and thus trained for battle instead. Inculcated with bloodlust.</p>
-							<p>Commonly wielding spears, shields, or swords.</p>
+							<p>As initiates unsuited for sorcery, they are trained for battle instead. Brainwashed with bloodlust, and armed with fair weaponry and light armor, they are dangerously aggressive opponents.</p>
 						</atl-showcase>
 						<atl-showcase images="
 							=> /assets/concepts/014.webp
@@ -202,7 +212,7 @@ export default template(async basic => {
 							">
 							<h2>Sorcerer</h2>
 							<p>In charge of indoctrinating initiates, and leading zealots in combat.</p>
-							<p>He uses his orb to telepathically coordinate his cohort of zealots. He occasionally conjures ball lighting as a ranged attack.</p>
+							<p>He uses an orb to telepathically coordinate his troop. He occasionally conjures ball lighting as a ranged attack.</p>
 							<p>When cornered, he may physically strike you with his orb, which is no joke, it's heavy.</p>
 						</atl-showcase>
 						<atl-showcase images="
@@ -211,7 +221,7 @@ export default template(async basic => {
 							">
 							<h2>Vanguard</h2>
 							<p>Heavily armored combat expert. Trains zealots in combat skills.</p>
-							<p>An extremely dangerous opponent. To be feared. Wields large two-handed weapons. Very aggressive, skilled in combat, and he will use tactical feints to throw off your defensive instincts.</p>
+							<p>An extremely dangerous opponent. To be feared. Wields large two-handed weapons. Aggressive and highly skilled in combat, he will use tactical feints to throw off your defensive instincts.</p>
 							<p>You're in trouble.</p>
 						</atl-showcase>
 						<atl-showcase images="
@@ -220,7 +230,7 @@ export default template(async basic => {
 							=> /assets/concepts/007.webp
 							">
 							<h2>Inquisitor</h2>
-							<p>Powerful warlock, and the highest rank of human among The Order.</p>
+							<p>Powerful warlock, and the highest rank of Acolyte who reports directly to the executors.</p>
 							<p>Uses potent telekinetic abilities to throw his enemies ragdolling across the room from a distance. He can also bend the trajectory of incoming arrows.</p>
 							<p>Skilled with his staff in melee combat, and even uses feints -- but he does not wear armor.</p>
 						</atl-showcase>
@@ -233,12 +243,23 @@ export default template(async basic => {
 
 					<div class=columns>
 						<atl-showcase images="
+							=> /assets/concepts/074.webp
+							=> /assets/concepts/075.webp
+							=> /assets/concepts/082.webp
+							=> /assets/concepts/083.webp
+							=> /assets/concepts/081.webp
+							">
+							<h2>Wrynthic Mines</h2>
+							<p>These ornate triangular mine entrances are found throughout the mountainous regions. The mining operations continue nonstop, day and night. Acolytes are often deployed as guards to protect the workers from interference.</p>
+							<p>Workers live and die in the mines, never seeing sunlight. Underground fungal crops provide sustenance, and birthing chambers provide fresh workers to replace those killed by accidents or overwork.</p>
+						</atl-showcase>
+						<atl-showcase images="
 							=> /assets/concepts/034.webp
 							=> /assets/concepts/033.webp
 							=> /assets/concepts/030.webp
 							">
 							<h2>Grunt</h2>
-							<p>Dim-witted unskilled laborer. This miserable creature is inured to pain, slogging through its suffering with indifference. Wears gloves and is covered from head-to-toe to prevent infection because its poorly-engineered skin keeps sloughing off. Sometimes wearing a mask to assist its breathing. Mostly tasked with moving things. Bad with tools. Grumpy, but poses no serious threat.</p>
+							<p>Dim-witted unskilled laborer. This miserable creature is inured to pain, slogging through its suffering with indifference. Wears gloves and is covered from head-to-toe to prevent infection because its poorly-engineered skin keeps sloughing off. Sometimes wearing a mask to assist its breathing. Mostly tasked with moving things. Grumpy, but poses no serious threat.</p>
 						</atl-showcase>
 						<atl-showcase images="
 							=> /assets/concepts/032.webp
@@ -254,25 +275,48 @@ export default template(async basic => {
 							=> /assets/concepts/017.webp
 							">
 							<h2>Digger</h2>
-							<p>Massive creature with specialized claws that can chip through solid rock. Directed by seekers to create new tunnels. It has very poor eyesight, and moves slow, but its claws can rip you in half like nothing. Consider yourself warned.</p>
+							<p>Massive creatures with specialized claws that can chip through solid rock. Directed by seekers to create new tunnels. They have very poor eyesight, and move slow, but have claws that can rip you in half like nothing. Consider yourself warned.</p>
 						</atl-showcase>
 						<atl-showcase images="
 							=> /assets/concepts/027.webp
-							=> /assets/concepts/038.webp
 							=> /assets/concepts/039.webp
+							=> /assets/concepts/084.webp
+							=> /assets/concepts/085.webp
+							=> /assets/concepts/090.webp
 							">
 							<h2>Cultivator</h2>
-							<p>Fast moving arachnoid. Usually found in the fungal crops or birthing chambers. They're defensive of their brood, and may stab at you with their long arms.</p>
-							<p>They carry smaller arachnoids on their backs, which they may throw at you.</p>
+							<p>Fast moving arachnoid. Found tending to the fungal crops or birthing chambers, they're defensive of their brood, and may stab at you with their long arms.</p>
+							<p>They carry a swarm of smaller arachnoids on their backs.</p>
 						</atl-showcase>
 					</div>
 
 					<div class=card>
 						<h2>The Wrynth</h2>
-						<p>Hybrid species sent down to Earth to conduct operations on the behalf of The Collectors. Mentally and physically superior to humans. Seven feet tall. Elongated skulls.</p>
+						<p>Hybrid species created and sent by The Collectors down to Earth to conduct operations. Mentally and physically superior to humans. Elongated skulls. Seven feet tall.</p>
 					</div>
 
 					<div class=columns>
+						<atl-showcase images="
+							=> /assets/concepts/080.webp
+							=> /assets/concepts/076.webp
+							=> /assets/concepts/077.webp
+							=> /assets/concepts/078.webp
+							=> /assets/concepts/079.webp
+							">
+							<h2>The Wrynth Tower</h2>
+							<p>On every island where the Wrynth conduct mining operations, they build one great tower.</p>
+							<p>At the tower, the Grand Overseer receives daily deliveries of refined ingots of Luxium. Each wagon load is escorted by an Executor with an armed retinue.</p>
+							<p>On occasion, the tower produces a deep thumping sound, reverberating through the ground, which can be heard miles away.</p>
+						</atl-showcase>
+						<atl-showcase images="
+							=> /assets/concepts/093.webp
+							=> /assets/concepts/092.webp
+							=> /assets/concepts/089.webp
+							=> /assets/concepts/052.webp
+							">
+							<h2>The Mud Bog</h2>
+							<p>The tower is surrounded by terrible bog, within a massive volcanic caldera. The cursed swamp is a tangled mess of dead trees and bubbling acid pools. Wretched creatures and wandering abominations thrive here. There is only one solid-ground pathway through the mudland, but it's heavily patrolled by Acolyte guards.</p>
+						</atl-showcase>
 						<atl-showcase images="
 							=> /assets/concepts/023.webp
 							=> /assets/concepts/020.webp
@@ -298,7 +342,8 @@ export default template(async basic => {
 							=> /assets/concepts/025.webp
 							">
 							<h2>Grand Overseer</h2>
-							<p>Highest rank of Wrynth on Earth. Direct representative of the The Collectors. They oversee and coordinate the operations of the executors. They are not born on this world.</p>
+							<p>Highest rank of Wrynth on Earth. A representative of the <em>The Collectors</em>. Directs and supervises the executors. Usually stay in the Wrynth Tower.</p>
+							<p>Not born on Earth.</p>
 						</atl-showcase>
 					</div>
 				</section>

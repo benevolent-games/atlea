@@ -63,7 +63,7 @@ export const style = css`
 		}
 
 		&[data-active] {
-			border-color: #fb0;
+			border-color: var(--alpha, magenta);
 		}
 
 		> img {

@@ -5,6 +5,8 @@ html {
 	font-size: 16px;
 	font-family: "Glory", serif;
 
+	--alpha: #fb0;
+
 	color: #fffa;
 	--bg: #000000f0;
 	background:
@@ -181,6 +183,7 @@ main {
 }
 
 /* standard content margins */
+.card,
 atl-showcase,
 .columns > div {
 	> * + * {
@@ -189,13 +192,16 @@ atl-showcase,
 }
 
 .card {
-	padding: 2em 0;
+	padding: 2em;
 	text-align: center;
 	max-width: 20em;
 	margin: auto;
 
+	text-shadow: 0.1em 0.1em 0.1em #0008;
+
 	> h2 {
 		font-size: 2em;
+		color: var(--alpha);
 	}
 }
 
