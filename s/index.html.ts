@@ -25,13 +25,13 @@ export default template(async basic => {
 					<div class=columns>
 						<atl-showcase images="
 							=> /assets/concepts/048.webp
-								Thirty-thousand years ago, The Atlean Archipelago was above sea level, and supported a flourishing civilization. The game starts on a random island in Atlea's northern region, Falrysk.
+								Thirty-thousand years ago, the Atlean Archipelago was above sea level, and supported a flourishing civilization. The game starts on a random island in Atlea's northern region, Falrysk.
 							=> /assets/concepts/049.webp
 								The large island has a dynamic landscape. With rugged mountains, vast plains, and secluded valleys. It is populated by many towns, and the countryside is dotted with countless rural settlements and homesteads.
 						"></atl-showcase>
 						<atl-showcase images="
 							=> /assets/concepts/068.webp
-								As a new player, you will start with nothing but peasant clothing, at a random location on the island. You'll have to rely on your wits to find food, shelter, and adventure.
+								As a new player, you will start with nothing but peasant clothing, at a random location on the island. You'll have to rely on your wits to find food, water, shelter, and adventure.
 							=> /assets/concepts/045.webp
 								Explore the landscape, and surely you'll happen upon a small homestead or village. Perhaps they'll offer to help you.
 						"></atl-showcase>
@@ -39,49 +39,63 @@ export default template(async basic => {
 
 					<div class=columns>
 						<atl-showcase images="
-							=> /assets/concepts/057.webp
-							=> /assets/concepts/061.webp
-							=> /assets/concepts/066.webp
-							=> /assets/concepts/060.webp
+							=> /assets/concepts/047.webp
+								Towns in Atlea are bustling with activity. Every character engages dynamically with the world, and has their own wants, needs, relationships, and more.
+							=> /assets/concepts/063.webp
+								If you find a town that has a need, perhaps you could provide for it, and earn riches by playing the market as a trader. It's all just supply and demand.
 						"></atl-showcase>
 						<atl-showcase images="
-							=> /assets/concepts/047.webp
-								Towns in Atlea are bustling with activity. Every character engages with the environment, and has their own wants, needs, and relationships.
-							=> /assets/concepts/063.webp
-								If you find a community that has a need, perhaps you could provide for it, and earn riches by playing the market as a trader. It's all just supply and demand.
+							=> /assets/concepts/057.webp
+								Get on a horse. Travel faster. Should you buy a horse? Can you get away with stealing one?
+							=> /assets/concepts/061.webp
+								As you make progress, choose abilities to specialize your character in skills that interest you. Archery, swordsmanship, sorcery – you name it!
+							=> /assets/concepts/066.webp
+								Invite friends to join your co-op adventure.
+							=> /assets/concepts/060.webp
+								If you get into trouble, sometimes your best option is to run.
 						"></atl-showcase>
 					</div>
 
 					<div class=columns>
 						<atl-showcase images="
 							=> /assets/concepts/059.webp
+								Armor is extremely effective at keeping you alive in violent situations. We recommend you find some.
 							=> /assets/concepts/065.webp
+								Off the beaten path, you might stumble onto a bandit camp. They might not be happy to see you.
 							=> /assets/concepts/058.webp
+								Dress warm for the cold, or you could freeze to death. Your adventures may take you far and wide. What are you looking for?
 							=> /assets/concepts/062.webp
+								A wise wizard of the mountains could be a powerful ally. Or a dangerous enemy. Or an ideal mentor for your sorcery. What will it be?
 						"></atl-showcase>
 						<atl-showcase images="
 							=> /assets/concepts/055.webp
-								The wretched bog is a no man's land that surrounds the Wrynth Tower.
+								The trecherous mud bog is a no man's land that surrounds The Tower.
 							=> /assets/concepts/054.webp
-								Since you're a new player, I don't advise trespassing here.
+								Since you're a new player, I advise turning back here.
 							=> /assets/concepts/056.webp
-								The Wrynth Tower. They built one on every island in Falrysk. Sometimes it emits a deep thumping sound, which can be felt through the ground for miles.
+								The Tower. There is one on every island in Falrysk. Sometimes it emits a deep thumping sound, which can be felt through the ground for miles.
 						"></atl-showcase>
 					</div>
 				</section>
 
 				<hr/>
 				<section style="--banner: url('/assets/banners/005.webp')">
-					<h1>Open Source</h1>
+					<h1>Design Document</h1>
 
 					<div class=columns>
 						<div>
-							<h2>This website is a game design document</h2>
+							<h2>This website is a game design document.</h2>
 							<p class=wip>We're still working on this document, it's not done yet.</p>
 							<p>Here we're attempting to outline and describe the design of our ambitious game project.</p>
 							<p>Our development approach is to first build the co-op dungeon crawling aspect of the game, and then expand the scope from there.</p>
 							<h2>A Benevolent Project</h2>
-							<p>Like all <a href="https://benevolent.games/">Benevolent Games</a>, Atlea will be free, open source, instantly playable on any device, and funded by the community.</p>
+							<p>Like all <a href="https://benevolent.games/">Benevolent Games</a>, Atlea will be free and open source, instantly playable on any device, and funded by the community.</p>
+						</div>
+						<div>
+							<h2>This is full of spoilers.</h2>
+							<p>Unlike this document, the game will not explain itself to gamers while they play. It's important to have discovery, mystery, intrigue, and surprises. Our intention is to create a rich world full of unknowns. Gamers will learn about the world by <em>exploring it.</em></p>
+							<p>This design document will <em>not</em> give you that experience. This design document is used for planning and coordinating developer efforts. Here, we will explain and unravel the mysteries, and outline the surprises we have in store for gamers.</p>
+							<p>Spoilers lay ahead, you've been warned.</p>
 						</div>
 					</div>
 				</section>
@@ -142,40 +156,41 @@ export default template(async basic => {
 
 					<div class=columns>
 						<atl-showcase images="
-								=> /assets/concepts/043.webp
-									The Night of Falling Stars
+								=> /assets/concepts/013.webp
+									Rough luxium ore in its natural state
 							">
 							<h2>The Element of Golden Light</h2>
-							<p>The invaders descended upon Earth with one objective: to strip our world of its most precious resource.</p>
-							<p><em>"Luxium Aureum"</em> is Gold 223, a glowing isotope of Gold.</p>
-							<p>The game starts a century after the invaders first landed. You will participate in (or at least bear witness to) the dynamically unfolding story of human complacency, resistance, and complicity, to the cold reign of <em>The Wrynth.</em></p>
+							<p><em>Luxium Aureum</em> is a rare element of great power.</p>
+							<p>To the layperson, its most obvious trick is that it brightens under pressure. Give it a squeeze with your hand, and it will emit enough light to guide you through the dark. At ambient air pressure, it continuously glows softly.</p>
+							<p>But to the alchemist or sorcerer, luxium has far more important magical capabilities beyond mere radioluminescence and piezoelectricity.</p>
 						</atl-showcase>
 						<atl-showcase images="
-								=> /assets/concepts/013.webp
-									Rough Luxium ore in its natural state
+								=> /assets/concepts/043.webp
+									Across all of Atlea, many witnessed the same event
 							">
-							<h2>Luxium Aureum</h2>
-							<p>To the layperson, its most obvious trick is that it brightens under pressure. Give it a squeeze with your hand, and it will emit enough light to guide you through the dark. At ambient air pressure, it continuously glows softly.</p>
-							<p>But to an alchemist, sorcerer, or Wrynth, the Luxium has far more important magical capabilities beyond its mere radioluminescence and piezoelectricity. It is the Philosopher's Stone, both the fuel and the instrument of its magic. Humans know little of how to control it.</p>
+							<h2>The Night of Falling Stars</h2>
+							<p>The invaders descended upon Earth with one objective: to strip our world of its most precious resource.</p>
+							<p>Luxium aureum is Gold 223, a glowing isotope of Gold.</p>
+							<p>The game starts a century after the invaders first landed. You will participate in (or at least bear witness to) the dynamically unfolding story of human complacency, resistance, and complicity, to the cold reign of <em>The Wrynth.</em></p>
 						</atl-showcase>
 						<atl-showcase images="
 								=> /assets/concepts/067.webp
 									Miners collecting the precious ore
 							">
 							<h2>It Beckons</h2>
-							<p>Any significant quantity of Luxium has a radioactive signature. A beacon, which inevitably draws nearer the Wrynth Seekers tasked with finding the substance, wherever it lay.</p>
-							<p>The "lesser gold" we are familiar with in modern times (isotope 197) is regarded by the Wrynth as little more than a refinement byproduct.</p>
+							<p>Any significant quantity of Luxium has a radioactive signature. A beacon, which inevitably draws the Wrynth Seekers nearer.</p>
+							<p>During the invasion, the Wrynth demonstrated far more incredible magic using the substance, before which humans had never seen. This sparked a revolution among innovative alchemists and sorcerers to discover its hidden capabilities. Luxium is the Philosopher's Stone: both the fuel and the instrument of real magic.</p>
 						</atl-showcase>
 					</div>
 				</section>
 
 				<hr/>
 				<section style="--banner: url('/assets/banners/008.webp')">
-					<h1>The Wrynthic Order</h1>
+					<h1>The Wrynthian Order</h1>
 
 					<div class=card>
 						<h2>Structures</h2>
-						<p>The Wrynth have built structures all across the island.</p>
+						<p>The Wrynth have built a network of mysterious structures across the island.</p>
 					</div>
 
 					<div class=columns>
@@ -187,22 +202,23 @@ export default template(async basic => {
 							=> /assets/concepts/086.webp
 							=> /assets/concepts/087.webp
 							">
-							<h2>Wrynthic Shrines</h2>
-							<p>The Wrynth constructed a network of shrines across the island. The building above land is merely an entrance to a large underground dungeon, where enslaved men are indoctrinated and transformed into Acolytes to serve the Wrynth.</p>
-							<p>Emblematic of Wrynthic architecture, the shrines have smooth-cut interiors encased in rugged rocky exteriors.</p>
+							<h2>Acolyte Sanctum</h2>
+							<p>The monolith above the ground is merely an entrance to a large subterranean dungeon, where enslaved men are indoctrinated and transformed into Acolytes to serve the Wrynth.</p>
+							<p>Sanctums are supply depots and garrisons from which they can deploy Acolytes.</p>
+							<p>Emblematic of Wrynthic architecture, sanctums have smooth-cut interiors encased by rugged rocky exteriors. These structures can be found near populations of subjugated humans, or up in the mountains near the mines.</p>
 						</atl-showcase>
 						<atl-showcase images="
 							=> /assets/concepts/074.webp
 							=> /assets/concepts/075.webp
 							=> /assets/concepts/082.webp
 							=> /assets/concepts/081.webp
-							=> /assets/concepts/090.webp
 							=> /assets/concepts/084.webp
+							=> /assets/concepts/090.webp
 							=> /assets/concepts/085.webp
 							">
-							<h2>Wrynthic Mines</h2>
-							<p>These ornate triangular mine entrances are found throughout the mountainous regions. The mining operations continue nonstop, day and night. Acolytes are often deployed as guards to protect the workers from interference.</p>
-							<p>Workers live and die in the mines, never seeing sunlight. Underground fungal crops provide sustenance. Birthing chambers provide fresh workers to replace those killed by accidents or overwork.</p>
+							<h2>Chimeric Mines</h2>
+							<p>These ornate triangular mine entrances are found throughout the mountainous regions. The mining operations continue nonstop, day and night. Acolytes are often deployed as guards to protect the workers from outside interference.</p>
+							<p>Workers live and die in these mines, never seeing sunlight. Underground fungal crops provide sustenance. Birthing chambers provide fresh workers to replace those killed by accidents or overwork.</p>
 						</atl-showcase>
 					</div>
 
@@ -215,9 +231,9 @@ export default template(async basic => {
 							=> /assets/concepts/079.webp
 							">
 							<h2>The Wrynth Tower</h2>
-							<p>On every island where the Wrynth conduct mining operations, they build one great tower.</p>
+							<p>On every island where the Wrynth conduct mining operations, they build a great tower.</p>
 							<p>At the tower, the Grand Overseer receives daily deliveries of refined ingots of Luxium. Each wagon load is escorted by an Executor with an armed retinue.</p>
-							<p>On occasion, the tower produces a deep thumping sound, reverberating through the ground, which can be heard miles away.</p>
+							<p>On occasion, the tower produces a deep thumping sound, reverberating through the ground, which can be heard miles away. Other times, emits a low-frequency droning, rumbling, groaning sound.</p>
 						</atl-showcase>
 						<atl-showcase images="
 							=> /assets/concepts/093.webp
@@ -271,14 +287,13 @@ export default template(async basic => {
 							<p>You're in trouble.</p>
 						</atl-showcase>
 						<atl-showcase images="
-							=> /assets/concepts/008.webp
 							=> /assets/concepts/006.webp
+							=> /assets/concepts/008.webp
 							=> /assets/concepts/007.webp
 							">
 							<h2>Inquisitor</h2>
-							<p>Powerful warlock, and the highest rank of Acolyte who reports directly to the executors.</p>
-							<p>Uses potent telekinetic abilities to throw his enemies ragdolling across the room from a distance. He can also bend the trajectory of incoming arrows.</p>
-							<p>Skilled with his staff in melee combat, and even uses feints -- but he does not wear armor.</p>
+							<p>Highest rank of Acolyte, he is often tasked to maintain loyalty from local human lords by terrorizing them and taking slaves.</p>
+							<p>A powerful warlock, who can telekinetically throw his enemies ragdolling across the room. He can also bend the trajectory of incoming arrows. Skilled in melee combat, he feints with his staff. His lack of armor is a vulnerability.</p>
 						</atl-showcase>
 					</div>
 
@@ -305,14 +320,6 @@ export default template(async basic => {
 							<p>Thick hide and strong bones make them tough for an unarmored opponent, and they're usually armed with dangerous mining tools like pickaxes. They're also known to have a nasty bite that causes infection. They boss the grunts around.</p>
 						</atl-showcase>
 						<atl-showcase images="
-							=> /assets/concepts/021.webp
-							=> /assets/concepts/016.webp
-							=> /assets/concepts/017.webp
-							">
-							<h2>Digger</h2>
-							<p>Massive creatures with specialized claws that can chip through solid rock. Directed by seekers to create new tunnels. They have very poor eyesight, and move slow, but have claws that can rip you in half like nothing. Consider yourself warned.</p>
-						</atl-showcase>
-						<atl-showcase images="
 							=> /assets/concepts/027.webp
 							=> /assets/concepts/039.webp
 							">
@@ -320,11 +327,19 @@ export default template(async basic => {
 							<p>Fast moving arachnoid. Found tending to the fungal crops or birthing chambers, they're defensive of their brood, and may stab at you with their long arms.</p>
 							<p>They carry a swarm of smaller arachnoids on their backs.</p>
 						</atl-showcase>
+						<atl-showcase images="
+							=> /assets/concepts/021.webp
+							=> /assets/concepts/016.webp
+							=> /assets/concepts/017.webp
+							">
+							<h2>Digger</h2>
+							<p>Massive creatures with specialized claws that can chip through solid rock. Directed by seekers to create new tunnels. They have very poor eyesight, and move slow, but have claws that can rip you in half like nothing. Consider yourself warned.</p>
+						</atl-showcase>
 					</div>
 
 					<div class=card>
 						<h2>The Wrynth</h2>
-						<p>Hybrid species created and sent by The Collectors down to Earth to conduct operations. Mentally and physically superior to humans. Elongated skulls. Seven feet tall.</p>
+						<p>Hybrid species created by The Collectors and sent down to Earth to conduct mining operations. Mentally and physically superior to humans. Elongated skulls. Seven feet tall.</p>
 					</div>
 
 					<div class=columns>
@@ -333,18 +348,18 @@ export default template(async basic => {
 							=> /assets/concepts/020.webp
 							">
 							<h2>Seeker</h2>
-							<p>Wrynth unit specialized for the ability to remotely sense luxium deposits. Directs the miners towards the ore.</p>
-							<p>Throws deadly ball lightning. Up close, it can kill you instantly by touching you with its electric hands.</p>
-							<p>Makes a terrible gurgly growling noise.</p>
-							<p>Squishy vulnerable cranium.</p>
+							<p>Specialized for the ability to remotely sense luxium. During mining operations, a seeker directs diggers and miners to ore deposits.</p>
+							<p>If threatened, it will throw deadly ball lightning. Up close, it can kill you quickly by touching you with its deadly electric hands.</p>
+							<p>Makes a terrible gurgling growling noise.</p>
 						</atl-showcase>
 						<atl-showcase images="
 							=> /assets/concepts/036.webp
 							=> /assets/concepts/035.webp
 							">
 							<h2>Executor</h2>
-							<p>Heavily armored Wrynth commander. Tasked with directing operations like luxium mining, relocation, or repossession. Wields a massive two-handed sword, in one hand.</p>
-							<p>Can bend incoming arrows and telekinetically throw enemies from a distance with one hand, while feinting with a huge sword in the other.</p>
+							<p>Heavily armored Wrynth commander. Tasked with directing luxium operations, including mining, relocation, repossession, and delivery to the tower.</p>
+							<p>Some executors are tasked with supervising an Acolyte Sanctum.</p>
+							<p>Wields a massive two-handed sword, in one hand. Can telekinetically bend incoming arrows and throw enemies from a distance with one hand, all while feinting with a huge sword in the other.</p>
 							<p>You are in grave danger.</p>
 						</atl-showcase>
 						<atl-showcase images="
@@ -353,8 +368,9 @@ export default template(async basic => {
 							=> /assets/concepts/025.webp
 							">
 							<h2>Grand Overseer</h2>
-							<p>Highest rank of Wrynth on Earth. A representative of the <em>The Collectors</em>. Directs and supervises the executors. Usually stay in the Wrynth Tower.</p>
-							<p>Not born on Earth.</p>
+							<p>Highest rank of Wrynth on Earth. Representative of the The Collectors. Lord of The Executors. Not born on Earth.</p>
+							<p>The Overseer can can vaporize people into dust, war-of-the-fucking-worlds style, from a distance, with its mind. We advise you not to mess with this guy.</p>
+							<p>Rarely leaves the Wrynth Tower.</p>
 						</atl-showcase>
 					</div>
 				</section>
