@@ -18,14 +18,14 @@ export default template(async basic => {
 				<hr/>
 				<section style="--banner: url('/assets/banners/001.webp')">
 					<h1>
-						<span>Atlea</span>
+						<span>Fall of Falrysk</span>
 						<span>Open World RPG</span>
 					</h1>
 
 					<div class=columns>
 						<atl-showcase images="
 							=> /assets/concepts/048.webp
-								Thirty-thousand years ago, the Atlean Archipelago was above sea level, and supported a flourishing civilization. The game starts on a random island in Atlea's northern region, Falrysk.
+								Thirty-thousand years ago, the Atlean Archipelago was above sea level, and supported a flourishing civilization. The game starts on a random island in the northern region, Falrysk.
 							=> /assets/concepts/049.webp
 								The large island has a dynamic landscape. With rugged mountains, vast plains, and secluded valleys. It is populated by many towns, and the countryside is dotted with countless rural settlements and homesteads.
 						"></atl-showcase>
@@ -89,7 +89,7 @@ export default template(async basic => {
 							<p>Here we're attempting to outline and describe the design of our ambitious game project.</p>
 							<p>Our development approach is to first build the co-op dungeon crawling aspect of the game, and then expand the scope from there.</p>
 							<h2>A Benevolent Project</h2>
-							<p>Like all <a href="https://benevolent.games/">Benevolent Games</a>, Atlea will be free and open source, instantly playable on any device, and funded by the community.</p>
+							<p>Like all <a href="https://benevolent.games/">Benevolent Games</a>, this game will be free and open source, instantly playable on any device, and funded by the community.</p>
 						</div>
 						<div>
 							<h2>This is full of spoilers.</h2>
@@ -136,7 +136,7 @@ export default template(async basic => {
 							<p>You can send your friends an invite link at any moment, for them to join your adventure.</p>
 							<h2>Day/Night Cycle</h2>
 							<p>An Atlean day is one hour of real-life time, including ten minutes of night.</p>
-							<p>A season passes every two weeks, thus, an Atlean year is 56 Atlean days (56 hours of gameplay).</p>
+							<p>A season passes every two weeks, thus, an Atlean year is 56 Atlean days.</p>
 							<h2>Spawn at Camp</h2>
 							<p>Your new character can spawn near any of your team's camps or houses. You can add a new character to your roster at any time.</p>
 							<p>When you're at any camp, you can safely "store" a character away for safe-keeping, then create a new character at any camp.</p>
@@ -175,7 +175,7 @@ export default template(async basic => {
 						</atl-showcase>
 						<atl-showcase images="
 								=> /assets/concepts/043.webp
-									Across all of Atlea, many witnessed the same event
+									Across all of Falrysk, many witnessed the same event
 							">
 							<h2>The Night of Falling Stars</h2>
 							<p>The invaders descended upon Earth with one objective: to strip our world of its most precious resource.</p>
@@ -199,7 +199,7 @@ export default template(async basic => {
 
 					<div class=card>
 						<h2>Structures</h2>
-						<p>The Wrynth have built a network of mysterious structures across the island.</p>
+						<p>The Wrynth have built a network of mysterious structures throughout Falrysk.</p>
 					</div>
 
 					<div class=columns>
@@ -211,10 +211,10 @@ export default template(async basic => {
 							=> /assets/concepts/086.webp
 							=> /assets/concepts/087.webp
 							">
-							<h2>Acolyte Sanctum</h2>
+							<h2>Acolyte Shrine</h2>
 							<p>The monolith above the ground is merely an entrance to a large subterranean dungeon, where enslaved men are indoctrinated and transformed into Acolytes to serve the Wrynth.</p>
-							<p>Sanctums are supply depots and garrisons from which they can deploy Acolytes.</p>
-							<p>Emblematic of Wrynthic architecture, sanctums have smooth-cut interiors encased by rugged rocky exteriors. These structures can be found near populations of subjugated humans, or up in the mountains near the mines.</p>
+							<p>Shrine are supply depots and garrisons from which they can deploy Acolytes.</p>
+							<p>Emblematic of Wrynthic architecture, shrines have smooth-cut interiors encased by rugged rocky exteriors. These structures can be found near populations of subjugated humans, or up in the mountains near the mines.</p>
 						</atl-showcase>
 						<atl-showcase images="
 							=> /assets/concepts/074.webp
@@ -226,7 +226,7 @@ export default template(async basic => {
 							=> /assets/concepts/085.webp
 							">
 							<h2>Chimeric Mines</h2>
-							<p>These ornate triangular mine entrances are found throughout the mountainous regions. The mining operations continue nonstop, day and night. Acolytes are often deployed as guards to protect the workers from outside interference.</p>
+							<p>Triangular mine entrances are found throughout the mountainous regions. Mining operations continue nonstop, day and night. Acolytes are deployed as guards to protect the workers from outside interference.</p>
 							<p>Workers live and die in these mines, never seeing sunlight. Underground fungal crops provide sustenance. Birthing chambers provide fresh workers to replace those killed by accidents or overwork.</p>
 						</atl-showcase>
 					</div>
@@ -368,7 +368,7 @@ export default template(async basic => {
 							">
 							<h2>Executor</h2>
 							<p>Heavily armored Wrynth commander. Tasked with directing luxium operations, including mining, relocation, repossession, and delivery to the tower.</p>
-							<p>Some executors are tasked with supervising an Acolyte Sanctum.</p>
+							<p>Some executors are tasked with supervising an Acolyte Shrine.</p>
 							<p>Wields a massive two-handed sword, in one hand. Can telekinetically bend incoming arrows and throw enemies from a distance with one hand, all while feinting with a huge sword in the other.</p>
 							<p>You are in grave danger.</p>
 						</atl-showcase>
@@ -376,6 +376,8 @@ export default template(async basic => {
 					<div class=columns>
 						<atl-showcase images="
 							=> /assets/concepts/004.webp
+							=> /assets/concepts/096.webp
+							=> /assets/concepts/097.webp
 							">
 							<h2>Arachnid</h2>
 							<p>While the Wrynth often ride horses, they are sometimes seen riding giant spiders as mounts.</p>
@@ -390,6 +392,48 @@ export default template(async basic => {
 							<p>Highest rank of Wrynth on Earth. Representative of the The Collectors. Lord of The Executors. Not born on Earth. Rarely leaves the Wrynth Tower.</p>
 							<p>The Overseer has immense powers. From a distance, with its mind, the Overseer can literally vaporize people into dust, war-of-the-fucking-worlds style.</p>
 							<p>We advise you not to mess with this guy.</p>
+						</atl-showcase>
+					</div>
+				</section>
+
+				<hr/>
+				<section style="--banner: url('/assets/banners/009.webp')">
+					<h1>Rebels and Traitors</h1>
+
+					<div class=columns>
+						<atl-showcase images="
+							=> /assets/concepts/098.webp
+							=> /assets/concepts/105.webp
+							">
+							<h2>After The Fall</h2>
+							<p>The Wrynth descended on the towns of Falrysk. All who resisted fell where they stood.</p>
+							<p>Forced to submit to the Wrynth, the lords had no choice but to dissolve their militias, and endure a brutal taxation regime demanding grain and slaves.</p>
+							<p>The balance of power in Falrysk was destabilized, and the lands were plunged into chaos rife with bandits, thugs, and petty wars.</p>
+						</atl-showcase>
+						<atl-showcase images="
+							=> /assets/concepts/106.webp
+							=> /assets/concepts/103.webp
+							=> /assets/concepts/102.webp
+							=> /assets/concepts/104.webp
+							">
+							<h2>The Rebels</h2>
+							<p>Not all bowed to the Wrynth.</p>
+							<p>Many fled the towns, deep into the forests, where the Wrynth cannot so easily extend control. Many organize armed rebellion against the Wrynth, conducting a guerrilla war ambushing convoys and raiding the mines.</p>
+							<p>Some forest groups are peaceful, and are just trying to stay out of trouble.</p>
+						</atl-showcase>
+						<atl-showcase images="
+							=> /assets/concepts/099.webp
+							=> /assets/concepts/100.webp
+							">
+							<h2>Darkness in the woods</h2>
+							<p>Not everybody hiding in the woods has the best intentions.</p>
+						</atl-showcase>
+						<atl-showcase images="
+							=> /assets/concepts/094.webp
+							=> /assets/concepts/095.webp
+							">
+							<h2>The Embargo</h2>
+							<p>The Wrynth established a naval blockade. Ships that attempt to sail from Falrysk to Thalyria are rammed to splinters by mysterious high-speed Wrynthic vessels, shaped like giant arrowheads, which patrol the strait.</p>
 						</atl-showcase>
 					</div>
 				</section>
