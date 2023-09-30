@@ -102,9 +102,7 @@ export default template(async basic => {
 
 				<hr/>
 				<section style="--banner: url('/assets/banners/002.webp')">
-					<h1>
-						Design Philosophy
-					</h1>
+					<h1>Design Philosophy</h1>
 
 					<div class=columns>
 						<atl-showcase images="
@@ -112,6 +110,7 @@ export default template(async basic => {
 							=> /assets/concepts/109.webp
 							">
 							<h2>Make Your Character</h2>
+							<atl-talents></atl-talents>
 						</atl-showcase>
 						<atl-showcase images="
 							=> /assets/concepts/107.webp
