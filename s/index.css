@@ -134,6 +134,12 @@ main {
 	}
 }
 
+.plate {
+	padding: 1em;
+	max-width: 94em;
+	margin: auto;
+}
+
 .columns {
 	display: flex;
 	justify-content: center;
@@ -152,14 +158,13 @@ main {
 		}
 
 		&:is(div, atl-showcase) {
+			position: relative;
 			background: #222a;
 			border-radius: 0.3em;
 			backdrop-filter: blur(1em);
 			text-shadow: 0.1em 0.1em 0.1em #0008;
 			overflow: hidden;
 			background: transparent;
-
-			position: relative;
 
 			&::before {
 				opacity: 0.8;

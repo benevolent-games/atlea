@@ -110,7 +110,8 @@ export default template(async basic => {
 							=> /assets/concepts/109.webp
 							">
 							<h2>Make Your Character</h2>
-							<atl-talents></atl-talents>
+							<p>Customize your character's appearance.</p>
+							<p>You can also set a few colors to apply to the clothing and armor of all your characters, which help your co-op friends identify you even when you change characters.</p>
 						</atl-showcase>
 						<atl-showcase images="
 							=> /assets/concepts/107.webp
@@ -130,9 +131,14 @@ export default template(async basic => {
 							<h2>Good Combat</h2>
 							<p>We're longtime Chivalry and Mordhau players, so we're massively inspired by the way they've done melee combat mechanics. We're dying to bring this kind of immersive gameplay experience to the RPG genre.</p>
 						</atl-showcase>
+					</div>
+
+					<div class=columns>
 						<div>
 							<h2>Every New Game is a Unique Island</h2>
 							<p>You can generate as many unique islands to play on as you'd like. They're all randomly procedurally generated, and massive.</p>
+							<h2>Co-op Gameplay</h2>
+							<p>You can send your friends an invite link at any moment, for them to join your adventure.</p>
 							<h2>Perma-death. Rogue-ish.</h2>
 							<p>Games are too bland and hand-holdy these days.</p>
 							<p>We believe that danger and risk are the necessary prerequisites for courage, bravery, and achievement.</p>
@@ -140,8 +146,6 @@ export default template(async basic => {
 							<p>We refuse to elaborate.</p>
 						</div>
 						<div>
-							<h2>Co-op Gameplay</h2>
-							<p>You can send your friends an invite link at any moment, for them to join your adventure.</p>
 							<h2>Day/Night Cycle</h2>
 							<p>An Atlean day is one hour of real-life time, including ten minutes of night.</p>
 							<p>A season passes every two weeks, thus, an Atlean year is 56 Atlean days.</p>
@@ -164,6 +168,10 @@ export default template(async basic => {
 							<p>We'll allow players to have a panel for enabling full-blown cheats, like cloning characters, and even godmode.</p>
 							<p>As an open source game, there will be forks and mods.. honestly, it will be beautiful chaos.</p>
 						</div>
+					</div>
+
+					<div class=plate>
+						<atl-talents></atl-talents>
 					</div>
 				</section>
 
