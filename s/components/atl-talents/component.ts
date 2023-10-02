@@ -6,19 +6,15 @@ import {style} from "./style.js"
 import {component} from "../../framework/frontend.js"
 
 function assert<X>(x: X) {
-	if (x === undefined)
+	if (x === undefined || x === null)
 		throw new Error("assert failed")
 	else
 		return x
 }
 
-namespace arr {
-	export function add<X>(a: X[], v: X) {
-		return [...a, v]
-	}
-	export function remove<X>(a: X[], v: X) {
-		return a.filter(x => x !== v)
-	}
+export const arrCopy = {
+	with: <X>(a: X[], v: X) => [...a, v],
+	without: <X>(a: X[], v: X) => a.filter(x => x !== v),
 }
 
 export namespace Traits {
@@ -35,52 +31,57 @@ export namespace Traits {
 		description: string
 	}
 
-	const talent = (name: string) => ({
-		detriments: (major: number, minor: number) => ({
-			description: (content: string) => ([name, {
-				detriments: {major, minor},
-				description: content,
-			}] as [string, Talent])
-		})
-	})
-
 	const detriment = (name: string) => ({
 		description: (content: string) =>
 			[name, {description: content}] as [string, Detriment]
 	})
 
+	// function mapify<X>(obj: Record<>) {}
 
-	export const talents = new Map<string, Talent>([
-		talent("Resourceful")
-			.detriments(1, 1)
-			.description(`Crafting ingredient cost is halved.`),
+	export const talents = new Map<string, Talent>(Object.entries({
+		"Resourceful": {
+			detriments: {major: 1, minor: 1},
+			description: `Crafting ingredient cost is halved`,
+		},
 
-		talent("Sprinter")
-			.detriments(1, 1)
-			.description(`Sprinting stamina cost is halved.`),
+		"Sprinter": {
+			detriments: {major: 1, minor: 1},
+			description: `Sprinting stamina cost is halved.`,
+		},
 
-		talent("Drunken Master")
-			.detriments(0, 0)
-			.description(`Alcohol gives you strength, but without it, you get the shakes and die.`),
+		"Drunken Master": {
+			detriments: {major: 0, minor: 0},
+			description: `Alcohol gives you strength, but without it, you get the shakes and die.`,
+		},
 
-		talent("Packmule")
-			.detriments(1, 1)
-			.description(`Have 5 belt slots instead of 3, carry a heavier load.`),
+		"Packmule": {
+			detriments: {major: 1, minor: 1},
+			description: `Have 5 belt slots instead of 3, carry a heavier load.`,
+		},
 
-		talent("Warrior")
-			.detriments(2, 1)
-			.description(`Start with cheap axe and wood shield.`),
+		"Warrior": {
+			detriments: {major: 1, minor: 1},
+			description: `Start with cheap axe and wood shield.`,
+		},
 
-		talent("Fashionable")
-			.detriments(0, 1)
-			.description(`Start with nicer clothes.`),
+		"Fashionable": {
+			detriments: {major: 0, minor: 1},
+			description: `Start with nicer clothes.`,
+		},
 
-		talent("Magis")
-			.detriments(0, 1)
-			.description(`Start with a tiny fleck of luxium.`),
-	])
+		"Gifted Magus": {
+			detriments: {major: 0, minor: 1},
+			description: `Start with a tiny fleck of luxium.`,
+		},
+
+		"Strong": {
+			detriments: {major: 1, minor: 1},
+			description: `Start with +3 strength points and it increases the cap by the same amount.`,
+		},
+	}).map(([name, talent]) => [name, talent] as [string, Talent]))
 
 	export const detriments = {
+		major2: new Map([]),
 		major: new Map([
 			detriment("Dunce")
 				.description(`Earn skill points at half the rate.`),
@@ -136,7 +137,22 @@ export namespace Traits {
 				.description(`Occasionally swindled during trade (overpaying, or being underpaid).`),
 
 			detriment("Fussy")
-				.description(`Refuses to eat particular foods.`),
+				.description(`Refuses to eat random foods.`),
+
+			detriment("Allergic")
+				.description(`Have allergies to a random set of foods.`),
+
+			detriment("Hobo")
+				.description(`Unable to build or buy a home.`),
+
+			detriment("Mute")
+				.description(`Never speaks.`),
+
+			detriment("Illiterate")
+				.description(`Can't read signs or books or anything.`),
+
+			detriment("Vegan")
+				.description(`Refuse to eat meat or animal products.`),
 		]),
 	}
 
@@ -235,22 +251,22 @@ export const AtlTalents = component(context => class extends GoldElement {
 		const clickTalent = (name: string) => () => {
 			const talents = this.#state.selected_talents
 			this.#state.selected_talents = talents.includes(name)
-				? arr.remove(talents, name)
-				: arr.add(talents, name)
+				? arrCopy.without(talents, name)
+				: arrCopy.with(talents, name)
 		}
 
 		const clickMajor = (name: string) => () => {
 			const majors = this.#state.selected_major_detriments
 			this.#state.selected_major_detriments = majors.includes(name)
-				? arr.remove(majors, name)
-				: arr.add(majors, name)
+				? arrCopy.without(majors, name)
+				: arrCopy.with(majors, name)
 		}
 
 		const clickMinor = (name: string) => () => {
 			const minors = this.#state.selected_minor_detriments
 			this.#state.selected_minor_detriments = minors.includes(name)
-				? arr.remove(minors, name)
-				: arr.add(minors, name)
+				? arrCopy.without(minors, name)
+				: arrCopy.with(minors, name)
 		}
 
 		return html`
