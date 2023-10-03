@@ -476,8 +476,8 @@ export default template(async basic => {
 						</div>
 						<div>
 							<h2>Join Us</h2>
-							<p>Once we having a working prototype of the game, we're going to start a crowdfunding campaign.</p>
-							<p>Join our the <a href="https://discord.gg/BnZx2utdev">Benevolent Games Discord Group</a> to follow our development and give us feedback.</p>
+							<p>Once we have a working prototype of the game, we're going to start a crowdfunding campaign.</p>
+							<p>Join our the <a target="_blank" href="https://discord.gg/BnZx2utdev">Benevolent Games Discord Group</a> to follow our development and give us feedback.</p>
 						</div>
 					</div>
 				</section>
