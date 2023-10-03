@@ -101,80 +101,6 @@ export default template(async basic => {
 				</section>
 
 				<hr/>
-				<section style="--banner: url('/assets/banners/002.webp')">
-					<h1>Design Philosophy</h1>
-
-					<div class=columns>
-						<atl-showcase images="
-							=> /assets/concepts/108.webp
-							=> /assets/concepts/109.webp
-							">
-							<h2>Make Your Character</h2>
-							<p>Customize your character's appearance.</p>
-						</atl-showcase>
-						<atl-showcase images="
-							=> /assets/concepts/107.webp
-							=> /assets/concepts/114.webp
-							=> /assets/concepts/115.webp
-							">
-							<h2>Skill Tree</h2>
-							<p>Choose skills for your character as you progress.</p>
-							<p>Specialize as a swordsman, archer, sorcerer, blacksmith, trader, etc.</p>
-						</atl-showcase>
-						<atl-showcase images="
-							=> /assets/concepts/005.webp
-							=> /assets/concepts/001.webp
-							=> /assets/concepts/018.webp
-							=> /assets/concepts/019.webp
-							">
-							<h2>Good Combat</h2>
-							<p>We're longtime Chivalry and Mordhau players, so we're massively inspired by the way they've done melee combat mechanics. We're dying to bring this kind of immersive gameplay experience to the RPG genre.</p>
-						</atl-showcase>
-					</div>
-
-					<div class=columns>
-						<div>
-							<h2>Every New Game is a Unique Island</h2>
-							<p>You can generate as many unique islands to play on as you'd like. They're all randomly procedurally generated, and massive.</p>
-							<h2>Co-op Gameplay</h2>
-							<p>You can send your friends an invite link at any moment, for them to join your adventure.</p>
-							<h2>Perma-death. Rogue-ish.</h2>
-							<p>Games are too bland and hand-holdy these days.</p>
-							<p>We believe that danger and risk are the necessary prerequisites for courage, bravery, and achievement.</p>
-							<h2>No Fast Travel</h2>
-							<p>We refuse to elaborate.</p>
-						</div>
-						<div>
-							<h2>Day/Night Cycle</h2>
-							<p>An Atlean day is one hour of real-life time, including ten minutes of night.</p>
-							<p>A season passes every two weeks, thus, an Atlean year is 56 Atlean days.</p>
-							<h2>Spawn at Camp</h2>
-							<p>Your new character can spawn near any of your team's camps or houses. You can add a new character to an island at any time.</p>
-							<p>When you're at any camp, you can safely "store" a character away for safe-keeping, then create a new character at any camp – but there is no way to fast-travel or teleport your characters or items across the island.</p>
-							<h2>Not Super Grindy</h2>
-							<p>Considering perma-death, we know the game can't be super grindy.</p>
-							<p>Let's say you're playing co-op with your friends. If you die, you'll just spawn as a new character at your nearest camp, grab a stick, and run back into the fight with your buddies. Sure, it's humiliating to be in peasant clothes again, but your fresh character will be "weak", not "utterly useless", and that's a big difference. In a couple hours, you'll be back up to speed with some good skill tree abilities.</p>
-						</div>
-						<div>
-							<h2>Emergence Over Scripted Narrative</h2>
-							<p>Our philosophy is that an open world game should not have a scripted narrative.</p>
-							<p>Players should be free of mandated obligations, so their own adventures and stories can emerge organically.</p>
-							<p>So our game takes a bottom-up "simulator" approach, inspired by Rimworld and Dwarf Fortress.</p>
-							<p>In this world, everything you do, or don't, has consequences. Nobody can predict the outcome.</p>
-							<h2>Play it your way.</h2>
-							<p>We're building a playground for gamers to play however they want.</p>
-							<p>Players will be able to start a custom-mode game, where they can disable perma-death, have more health, etc.</p>
-							<p>We'll allow players to have a panel for enabling full-blown cheats, like cloning characters, and even godmode.</p>
-							<p>As an open source game, there will be forks and mods.. honestly, it will be beautiful chaos.</p>
-						</div>
-					</div>
-
-					<div class=plate>
-						<atl-talents></atl-talents>
-					</div>
-				</section>
-
-				<hr/>
 				<section style="--banner: url('/assets/banners/003.webp')">
 					<h1>From Heaven To Earth They Came</h1>
 
@@ -451,6 +377,80 @@ export default template(async basic => {
 							<h2>The Embargo</h2>
 							<p>The Wrynth established a naval blockade. Ships that attempt to sail from Falrysk to Thalyria are rammed to splinters by mysterious high-speed Wrynthic vessels, shaped like giant arrowheads, which patrol the strait.</p>
 						</atl-showcase>
+					</div>
+				</section>
+
+				<hr/>
+				<section style="--banner: url('/assets/banners/002.webp')">
+					<h1>Design Philosophy</h1>
+
+					<div class=columns>
+						<atl-showcase images="
+							=> /assets/concepts/108.webp
+							=> /assets/concepts/109.webp
+							">
+							<h2>Make Your Character</h2>
+							<p>Customize your character's appearance.</p>
+						</atl-showcase>
+						<atl-showcase images="
+							=> /assets/concepts/107.webp
+							=> /assets/concepts/114.webp
+							=> /assets/concepts/115.webp
+							">
+							<h2>Skill Tree</h2>
+							<p>Choose skills for your character as you progress.</p>
+							<p>Specialize as a swordsman, archer, sorcerer, blacksmith, trader, etc.</p>
+						</atl-showcase>
+						<atl-showcase images="
+							=> /assets/concepts/005.webp
+							=> /assets/concepts/001.webp
+							=> /assets/concepts/018.webp
+							=> /assets/concepts/019.webp
+							">
+							<h2>Good Combat</h2>
+							<p>We're longtime Chivalry and Mordhau players, so we're massively inspired by the way they've done melee combat mechanics. We're dying to bring this kind of immersive gameplay experience to the RPG genre.</p>
+						</atl-showcase>
+					</div>
+
+					<div class=columns>
+						<div>
+							<h2>Every New Game is a Unique Island</h2>
+							<p>You can generate as many unique islands to play on as you'd like. They're all randomly procedurally generated, and massive.</p>
+							<h2>Co-op Gameplay</h2>
+							<p>You can send your friends an invite link at any moment, for them to join your adventure.</p>
+							<h2>Perma-death. Rogue-ish.</h2>
+							<p>Games are too bland and hand-holdy these days.</p>
+							<p>We believe that danger and risk are the necessary prerequisites for courage, bravery, and achievement.</p>
+							<h2>No Fast Travel</h2>
+							<p>We refuse to elaborate.</p>
+						</div>
+						<div>
+							<h2>Day/Night Cycle</h2>
+							<p>An Atlean day is one hour of real-life time, including ten minutes of night.</p>
+							<p>A season passes every two weeks, thus, an Atlean year is 56 Atlean days.</p>
+							<h2>Spawn at Camp</h2>
+							<p>Your new character can spawn near any of your team's camps or houses. You can add a new character to an island at any time.</p>
+							<p>When you're at any camp, you can safely "store" a character away for safe-keeping, then create a new character at any camp – but there is no way to fast-travel or teleport your characters or items across the island.</p>
+							<h2>Not Super Grindy</h2>
+							<p>Considering perma-death, we know the game can't be super grindy.</p>
+							<p>Let's say you're playing co-op with your friends. If you die, you'll just spawn as a new character at your nearest camp, grab a stick, and run back into the fight with your buddies. Sure, it's humiliating to be in peasant clothes again, but your fresh character will be "weak", not "utterly useless", and that's a big difference. In a couple hours, you'll be back up to speed with some good skill tree abilities.</p>
+						</div>
+						<div>
+							<h2>Emergence Over Scripted Narrative</h2>
+							<p>Our philosophy is that an open world game should not have a scripted narrative.</p>
+							<p>Players should be free of mandated obligations, so their own adventures and stories can emerge organically.</p>
+							<p>So our game takes a bottom-up "simulator" approach, inspired by Rimworld and Dwarf Fortress.</p>
+							<p>In this world, everything you do, or don't, has consequences. Nobody can predict the outcome.</p>
+							<h2>Play it your way.</h2>
+							<p>We're building a playground for gamers to play however they want.</p>
+							<p>Players will be able to start a custom-mode game, where they can disable perma-death, have more health, etc.</p>
+							<p>We'll allow players to have a panel for enabling full-blown cheats, like cloning characters, and even godmode.</p>
+							<p>As an open source game, there will be forks and mods.. honestly, it will be beautiful chaos.</p>
+						</div>
+					</div>
+
+					<div class=plate>
+						<atl-talents></atl-talents>
 					</div>
 				</section>
 
