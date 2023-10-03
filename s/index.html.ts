@@ -6,7 +6,7 @@ export default template(async basic => {
 
 	return easypage({
 		path,
-		title: "Atlea Game Design",
+		title: "Falrysk Game Design",
 		css: "index.css",
 		head: html`
 			<meta name="darkreader" content="dark"/>
