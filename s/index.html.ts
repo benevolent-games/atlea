@@ -111,7 +111,6 @@ export default template(async basic => {
 							">
 							<h2>Make Your Character</h2>
 							<p>Customize your character's appearance.</p>
-							<p>You can also set a few colors to apply to the clothing and armor of all your characters, which help your co-op friends identify you even when you change characters.</p>
 						</atl-showcase>
 						<atl-showcase images="
 							=> /assets/concepts/107.webp
@@ -120,7 +119,7 @@ export default template(async basic => {
 							">
 							<h2>Skill Tree</h2>
 							<p>Choose skills for your character as you progress.</p>
-							<p>Specialize as a swordsman, archery, sorcery, blacksmithing, trading, agriculture (maybe lol), sailing or whatever.</p>
+							<p>Specialize as a swordsman, archer, sorcerer, blacksmith, trader, etc.</p>
 						</atl-showcase>
 						<atl-showcase images="
 							=> /assets/concepts/005.webp
@@ -425,6 +424,7 @@ export default template(async basic => {
 							<p>The Wrynth descended on the towns of Falrysk. All who resisted fell where they stood.</p>
 							<p>Forced to submit to the Wrynth, the lords had no choice but to dissolve their militias, and endure a brutal taxation regime demanding grain and slaves.</p>
 							<p>The balance of power in Falrysk was destabilized, and the lands were plunged into chaos rife with bandits, thugs, and petty wars.</p>
+							<p>Thousands fled the towns and built homesteads on remote countrysides.</p>
 						</atl-showcase>
 						<atl-showcase images="
 							=> /assets/concepts/106.webp
@@ -434,8 +434,8 @@ export default template(async basic => {
 							">
 							<h2>The Rebels</h2>
 							<p>Not all bowed to the Wrynth.</p>
-							<p>Many fled the towns, deep into the forests, where the Wrynth cannot so easily extend control. Many organize armed rebellion against the Wrynth, conducting a guerrilla war ambushing convoys and raiding the mines.</p>
-							<p>Some forest groups are peaceful, and are just trying to stay out of trouble.</p>
+							<p>Many rebel groups congregate deep in the forests, where the Wrynth cannot so easily extend their control. They organize armed rebellion against the Wrynth, conducting a guerrilla war ambushing convoys and raiding the mines.</p>
+							<p>The Rebels often see the town lords as traitors who cooperate with the Wrynth to enslave the common people. The Rebels are sometimes regarded by the townsfolk as hostile bandits that further threaten the peace for everybody.</p>
 						</atl-showcase>
 						<atl-showcase images="
 							=> /assets/concepts/099.webp
@@ -451,6 +451,30 @@ export default template(async basic => {
 							<h2>The Embargo</h2>
 							<p>The Wrynth established a naval blockade. Ships that attempt to sail from Falrysk to Thalyria are rammed to splinters by mysterious high-speed Wrynthic vessels, shaped like giant arrowheads, which patrol the strait.</p>
 						</atl-showcase>
+					</div>
+				</section>
+
+				<hr/>
+				<section style="--banner: url('/assets/banners/010.webp')">
+					<h1>Development Strategy</h1>
+
+					<div class=columns>
+						<div>
+							<h2>Dungeon Crawler</h2>
+							<p>Falrysk is an ambitious project.</p>
+							<p>Starting with a small team of developers, we've going to start with a small slice of the pie, and implement a co-op dungeon crawler game that takes place entirely within a single Acolyte Shrine.</p>
+							<p>Players will fight Acolyte enemies as they descend multiple dungeon levels, to see if they can defeat the final boss at the bottom: The Executor.</p>
+						</div>
+						<div>
+							<h2>Using and Creating Open Source Tools</h2>
+							<p>Built on 100% free and open source software, we are excited to be a part of the new emerging ecosystem of web-based games.</p>
+							<p>We are using BabylonJS, and we will be creating a host of new tooling, including a new editor suite, dungeon and terrain generators, AI systems, character controller, multiplayer networking libraries, and much more.</p>
+						</div>
+						<div>
+							<h2>Join Us</h2>
+							<p>Once we having a working prototype of the game, we're going to start a crowdfunding campaign.</p>
+							<p>Join our the <a href="https://discord.gg/BnZx2utdev">Benevolent Games Discord Group</a> to follow our development and give us feedback.</p>
+						</div>
 					</div>
 				</section>
 
