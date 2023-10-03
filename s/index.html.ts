@@ -85,17 +85,19 @@ export default template(async basic => {
 					<div class=columns>
 						<div>
 							<h2>This website is a game design document.</h2>
-							<p class=wip>We're still working on this document, it's not done yet.</p>
-							<p>Here we're attempting to outline and describe the design of our ambitious game project.</p>
-							<p>Our development approach is to first build the co-op dungeon crawling aspect of the game, and then expand the scope from there.</p>
-							<h2>A Benevolent Project</h2>
-							<p>Like all <a href="https://benevolent.games/">Benevolent Games</a>, this game will be free and open source, instantly playable on any device, and funded by the community.</p>
+							<p>We're attempting to outline and describe the design of our ambitious game project, for internal use to align development efforts.</p>
+							<p>This is a living document which might change.</p>
 						</div>
 						<div>
 							<h2>This is full of spoilers.</h2>
-							<p>Unlike this document, the game will not explain itself to gamers while they play. It's important to have discovery, mystery, intrigue, and surprises. Our intention is to create a rich world full of unknowns. Gamers will learn about the world by <em>exploring it.</em></p>
+							<p>The game will not explain itself to gamers while they play. Gamers will learn about the world by <em>exploring it.</em></p>
 							<p>This design document will <em>not</em> give you that experience. This design document is used for planning and coordinating developer efforts. Here, we will explain and unravel the mysteries, and outline the surprises we have in store for gamers.</p>
 							<p>Spoilers lay ahead, you've been warned.</p>
+						</div>
+						<div>
+							<h2>AI generated concept art.</h2>
+							<p>We leveraged AI to the fullest to create images that best express our vision.</p>
+							<p>The images are references so that we can converge our efforts to create a coherent world.</p>
 						</div>
 					</div>
 				</section>
@@ -129,7 +131,7 @@ export default template(async basic => {
 							">
 							<h2>It Beckons</h2>
 							<p>Any significant quantity of Luxium has a radioactive signature. A beacon, which inevitably draws the Wrynth Seekers nearer.</p>
-							<p>Since they landed, the Wrynth demonstrated far more incredible magic using the substance than humans had ever seen. This has sparked an ongoing human revolution among innovative alchemists and sorcerers to discover its hidden capabilities, in an attempt to catch up with the Wrynth. Luxium is the Philosopher's Stone: both the fuel and the instrument of real magic.</p>
+							<p>Since they landed, the Wrynth demonstrated far more incredible magic using the substance than humans had ever seen. This has sparked an ongoing revolution among innovative human alchemists and sorcerers to discover its hidden capabilities, in an attempt to catch up with the Wrynth. Luxium is the Philosopher's Stone: both the fuel and the instrument of real magic.</p>
 						</atl-showcase>
 					</div>
 				</section>
@@ -153,9 +155,9 @@ export default template(async basic => {
 							=> /assets/concepts/087.webp
 							">
 							<h2>Acolyte Shrine</h2>
+							<p>Shrines are supply depots and military garrisons from which the Wrynth can deploy Acolytes.</p>
 							<p>The monolith above the ground is merely an entrance to a large subterranean dungeon, where enslaved men are indoctrinated and transformed into Acolytes to serve the Wrynth.</p>
-							<p>Shrine are supply depots and garrisons from which they can deploy Acolytes.</p>
-							<p>Emblematic of Wrynthic architecture, shrines have smooth-cut interiors encased by rugged rocky exteriors. These structures can be found near populations of subjugated humans, or up in the mountains near the mines.</p>
+							<p>Emblematic of Wrynthic architecture, shrines have smooth-cut interiors encased by rugged rocky exteriors. The Wrynth are apparently able to easily control the shape and flow of solid rock. These structures can be found near populations of subjugated humans, or up in the mountains near the mines.</p>
 						</atl-showcase>
 						<atl-showcase images="
 							=> /assets/concepts/074.webp
@@ -182,7 +184,7 @@ export default template(async basic => {
 							">
 							<h2>The Wrynth Tower</h2>
 							<p>On every island where the Wrynth conduct mining operations, they build a great tower.</p>
-							<p>At the tower, the Grand Overseer receives daily deliveries of refined ingots of Luxium. Each wagon load is escorted by an Executor with an armed retinue.</p>
+							<p>At the tower, the Grand Overseer receives daily deliveries of refined Luxium ingots. Each wagon load is escorted by an Executor surrounded by an armed retinue.</p>
 							<p>On occasion, the tower produces a bone-chilling deep thumping sound, reverberating through the ground, which can be heard miles away. Other times, the tower emits a gut-wrenching low-frequency droning, rumbling, groaning sound.</p>
 						</atl-showcase>
 						<atl-showcase images="
@@ -208,7 +210,7 @@ export default template(async basic => {
 							=> /assets/concepts/009.webp
 							">
 							<h2>Initiate</h2>
-							<p>The initiate monks are men that were enslaved by their own local lords, and handed over to the Wrynth as tribute of fealty.</p>
+							<p>The initiate monks are men that were enslaved and handed over by their own local lords to the Wrynth.</p>
 							<p>They undergo intense obedience conditioning. Malnourished, unarmored, and untrained in combat, they make weak opposition.</p>
 						</atl-showcase>
 						<atl-showcase images="
@@ -216,15 +218,15 @@ export default template(async basic => {
 							=> /assets/concepts/011.webp
 							">
 							<h2>Zealot</h2>
-							<p>As initiates unsuited for sorcery, they are trained for battle instead. Brainwashed with bloodlust, and armed with fair weaponry and light armor, they are dangerously aggressive opponents.</p>
+							<p>Once initiates, they proved unsuited for sorcery, and thus were trained for battle instead. Brainwashed with bloodlust, and armed with fair weaponry and light armor, zealots are dangerous and aggressive opponents.</p>
 						</atl-showcase>
 						<atl-showcase images="
 							=> /assets/concepts/014.webp
 							=> /assets/concepts/022.webp
 							">
 							<h2>Sorcerer</h2>
-							<p>In charge of indoctrinating initiates, and leading zealots in combat.</p>
-							<p>He uses an orb to telepathically coordinate his troop. He occasionally conjures ball lighting as a ranged attack.</p>
+							<p>Charged with the indoctrination of initiates, and leading zealots in combat.</p>
+							<p>He uses an orb to telepathically coordinate his troop. He can conjure ball lighting as a ranged attack.</p>
 							<p>When cornered, he may physically strike you with his orb, which is no joke, it's heavy.</p>
 						</atl-showcase>
 						<atl-showcase images="
@@ -232,8 +234,8 @@ export default template(async basic => {
 							=> /assets/concepts/010.webp
 							">
 							<h2>Vanguard</h2>
-							<p>Heavily armored combat expert. Trains zealots in combat skills.</p>
-							<p>An extremely dangerous opponent. To be feared. Wields large two-handed weapons. Aggressive and highly skilled in combat, he will use tactical feints to throw off your defensive instincts.</p>
+							<p>Heavily armored combat expert. Trains zealots in fighting skills.</p>
+							<p>An extremely dangerous opponent. To be feared. Wields large two-handed weapons. Aggressive and highly skilled, he will use tactical feints to throw off your defensive instincts.</p>
 							<p>You're in trouble.</p>
 						</atl-showcase>
 						<atl-showcase images="
@@ -242,8 +244,8 @@ export default template(async basic => {
 							=> /assets/concepts/007.webp
 							">
 							<h2>Inquisitor</h2>
-							<p>Highest rank of Acolyte, he is often tasked to maintain loyalty from local human lords by terrorizing them and taking slaves.</p>
-							<p>A powerful warlock, who can telekinetically throw his enemies ragdolling across the room. He can also bend the trajectory of incoming arrows. Skilled in melee combat, he feints with his staff. His lack of armor is a vulnerability.</p>
+							<p>Highest rank of Acolyte. He is tasked with maintaining the loyalty of local town lords.</p>
+							<p>A powerful warlock, who can telekinetically throw his enemies ragdolling across the room. He can also bend the trajectory of incoming arrows. Skilled in melee combat, he feints with his staff. Armor encumbers human sorcery, and thus his lack thereof presents a vulnerability.</p>
 						</atl-showcase>
 					</div>
 
@@ -259,7 +261,7 @@ export default template(async basic => {
 							=> /assets/concepts/030.webp
 							">
 							<h2>Grunt</h2>
-							<p>Dim-witted unskilled laborer. This miserable creature is inured to pain, slogging through its suffering with indifference. Wears gloves and is covered from head-to-toe to prevent infection because its poorly-engineered skin keeps sloughing off. Sometimes wearing a mask to assist its breathing. Mostly tasked with moving things. Grumpy, but poses no serious threat.</p>
+							<p>Dim-witted unskilled laborer. This miserable creature is inured to pain, slogging through its suffering with indifference. Wears gloves and is covered from head-to-toe to prevent infection because its poorly-engineered skin keeps sloughing off. Sometimes wearing a mask to assist its breathing. Mostly tasked with moving things. Grumpy, although poses no serious threat.</p>
 						</atl-showcase>
 						<atl-showcase images="
 							=> /assets/concepts/032.webp
@@ -267,15 +269,15 @@ export default template(async basic => {
 							=> /assets/concepts/029.webp
 							">
 							<h2>Miner</h2>
-							<p>Thick hide and strong bones make them tough for an unarmored opponent, and they're usually armed with dangerous mining tools like pickaxes. They're also known to have a nasty bite that causes infection. They boss the grunts around.</p>
+							<p>Thick hide and strong bones make them unusually tough for an unarmored opponent, and they're usually armed with dangerous mining tools like pickaxes. They're also known to have a nasty bite that causes infection. They boss the grunts around.</p>
 						</atl-showcase>
 						<atl-showcase images="
 							=> /assets/concepts/027.webp
 							=> /assets/concepts/039.webp
 							">
 							<h2>Cultivator</h2>
-							<p>Fast moving arachnoid. Found tending to the fungal crops or birthing chambers, they're defensive of their brood, and may stab at you with their long arms.</p>
-							<p>They carry a swarm of smaller arachnoids on their backs.</p>
+							<p>Fast moving arachnoid. Found tending to the fungal crops or birthing chambers, she is defensive of her brood, and may stab at you with her long arms.</p>
+							<p>She carries a swarm of smaller arachnoids on her back.</p>
 						</atl-showcase>
 						<atl-showcase images="
 							=> /assets/concepts/021.webp
@@ -283,13 +285,13 @@ export default template(async basic => {
 							=> /assets/concepts/017.webp
 							">
 							<h2>Digger</h2>
-							<p>Massive creatures with specialized claws that can chip through solid rock. Directed by seekers to create new tunnels. They have very poor eyesight, and move slow, but have claws that can rip you in half like nothing. Consider yourself warned.</p>
+							<p>Massive creature with specialized claws that can chip through solid rock. Directed by seekers to create new tunnels. They have very poor eyesight, and move slow, but have claws that can easily rip you in half. Consider yourself warned.</p>
 						</atl-showcase>
 					</div>
 
 					<div class=card>
 						<h2>The Wrynth</h2>
-						<p>Hybrid species created by The Collectors and sent down to Earth to conduct mining operations. Mentally and physically superior to humans. Elongated skulls. Seven feet tall.</p>
+						<p>Hybrid species created by <em>"The Collectors"</em> and sent down to Earth to conduct mining operations. Mentally and physically superior to humans. Elongated skulls. Seven feet tall.</p>
 					</div>
 
 					<div class=columns>
@@ -300,6 +302,7 @@ export default template(async basic => {
 							<h2>Seeker</h2>
 							<p>A Wrynth with no mask or helmet.</p>
 							<p>Specialized for the ability to remotely sense luxium. During mining operations, the seeker directs diggers and miners to ore deposits.</p>
+							<p>Seen outside the mines when the Wrynth are trying to track down missing or stolen luxium.</p>
 							<p>If threatened, it will throw deadly ball lightning. Up close, it can kill you quickly by touching you with its deadly electric hands.</p>
 							<p>Makes a terrible gurgling growling noise.</p>
 						</atl-showcase>
@@ -308,9 +311,9 @@ export default template(async basic => {
 							=> /assets/concepts/035.webp
 							">
 							<h2>Executor</h2>
-							<p>Heavily armored Wrynth commander. Tasked with directing luxium operations, including mining, relocation, repossession, and delivery to the tower.</p>
+							<p>Heavily armored Wrynth commander. Tasked with directing luxium operations including mining, relocation, repossession, or delivery to the tower.</p>
 							<p>Some executors are tasked with supervising an Acolyte Shrine.</p>
-							<p>Wields a massive two-handed sword, in one hand. Can telekinetically bend incoming arrows and throw enemies from a distance with one hand, all while feinting with a huge sword in the other.</p>
+							<p>Wields a massive two-handed sword, in one hand. Can telekinetically throw enemies and bend arrows with one hand, all while feinting with a huge sword in the other.</p>
 							<p>You are in grave danger.</p>
 						</atl-showcase>
 					</div>
@@ -322,7 +325,7 @@ export default template(async basic => {
 							">
 							<h2>Arachnid</h2>
 							<p>While the Wrynth often ride horses, they are sometimes seen riding giant spiders as mounts.</p>
-							<p>Generally, horses make better mounts for traveling, whereas the Wrynth prefer the arachnids in war, as they are heavily armored, and very aggressive and dangerous on their own, even without a rider.</p>
+							<p>Generally, horses make better mounts for traveling, but the Wrynth prefer the arachnids in battle, as they are heavily armored and very aggressive and dangerous on their own, even without a rider.</p>
 						</atl-showcase>
 						<atl-showcase images="
 							=> /assets/concepts/041.webp
@@ -330,8 +333,8 @@ export default template(async basic => {
 							=> /assets/concepts/025.webp
 							">
 							<h2>Grand Overseer</h2>
-							<p>Highest rank of Wrynth on Earth. Representative of the The Collectors. Lord of The Executors. Not born on Earth. Rarely leaves the Wrynth Tower.</p>
-							<p>The Overseer has immense powers. From a distance, with its mind, the Overseer can literally vaporize people into dust, war-of-the-fucking-worlds style.</p>
+							<p>Highest rank of Wrynth on Earth. Lord of The Executors. Representative of the The Collectors. Not born on Earth. Rarely leaves the Wrynth Tower.</p>
+							<p>The Overseer has immense powers. From a distance, with its mind, the Overseer can vaporize people into dust, war-of-the-fucking-worlds style.</p>
 							<p>We advise you not to mess with this guy.</p>
 						</atl-showcase>
 					</div>
@@ -466,9 +469,10 @@ export default template(async basic => {
 							<p>Players will fight Acolyte enemies as they descend multiple dungeon levels, to see if they can defeat the final boss at the bottom: The Executor.</p>
 						</div>
 						<div>
+							<h2>A Benevolent Project</h2>
+							<p>Like all <a href="https://benevolent.games/">Benevolent Games</a>, this game will be free and open source, instantly playable on any device, and funded by the community.</p>
 							<h2>Using and Creating Open Source Tools</h2>
-							<p>Built on 100% free and open source software, we are excited to be a part of the new emerging ecosystem of web-based games.</p>
-							<p>We are using BabylonJS, and we will be creating a host of new tooling, including a new editor suite, dungeon and terrain generators, AI systems, character controller, multiplayer networking libraries, and much more.</p>
+							<p>We're excited to be a part of the new emerging open source game development ecosystem. The game will be built with BabylonJS. We're creating a collection of new tools, including a new editor suite, dungeon and terrain generators, AI systems, character controller, multiplayer networking libraries, and much more.</p>
 						</div>
 						<div>
 							<h2>Join Us</h2>
@@ -478,6 +482,7 @@ export default template(async basic => {
 					</div>
 				</section>
 
+				<hr/>
 			</main>
 		`,
 	})
